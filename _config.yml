@@ -1,4 +1,4 @@
-baseurl: /guides-template
+baseurl: /ads-bpa
 markdown: redcarpet
 name: Agile Delivery Services Blanket Purchase Agreement
 exclude:
@@ -26,9 +26,12 @@ navigation:
 - text: Introduction
   url: index.html
   internal: true
-- text: Templates and Documents
-  url: templates-documents/
+- text: How can I use the Agile BPA
+  url: how-can-i-use-the-agile-bpa/
   internal: true
+- text: Submit a Project for the Agile BPA
+  url: https://docs.google.com/a/gsa.gov/forms/d/1w0eSRMWwgwsi-7OYmBAVkOmQnhzXbQRU6JGXUd6Xrps/viewform
+  internal: false
 - text: Contact 18F
   url: contact-18f/
   internal: true
@@ -36,7 +39,7 @@ navigation:
 repos:
 - name: Agile Delivery Services BPA Guide
   description: Main repository
-  url: https://github.com/18F/ads-bpa-guide
+  url: https://github.com/18F/ads-bpa
 
 # Style Variables
 brand_color: "#1188ff"
