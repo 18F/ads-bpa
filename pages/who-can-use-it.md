@@ -14,7 +14,7 @@ There are 6 primary steps for the Agile BPA:
 
 2. Execute an Interagency Agreement (IAA) between your agency and 18F.
 
-3. 18F will conduct an project acquisition workshop.
+3. 18F will conduct a project acquisition workshop.
 
 4. 18F will acquire one or more Agile BPA vendors.
 
