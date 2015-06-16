@@ -6,9 +6,9 @@ title: How can I use the Agile BPA?
 
 Although only 18F may issue task orders against the BPA, any federal agency may obtain services through 18F. If your agency has a project that is appropriate for the Agile BPA, we can help!
 
-## What is the process for the Agile BPA
+## What is the process for the Agile BPA?
 
-There are 6 primary steps for the Agile BPA:
+There are sic primary steps for the Agile BPA:
 
 1. Submit a project through the [Project Interest Form](https://docs.google.com/a/gsa.gov/forms/d/1w0eSRMWwgwsi-7OYmBAVkOmQnhzXbQRU6JGXUd6Xrps/viewform).
 
