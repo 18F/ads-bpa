@@ -8,7 +8,11 @@ Although only 18F may issue task orders against the BPA, any federal agency may 
 
 ## What is the process for the Agile BPA?
 
+<<<<<<< HEAD
+There are sic primary steps for the Agile BPA:
+=======
 There are six primary steps for the Agile BPA:
+>>>>>>> 778cf9d02eb08941e4e73544982664e817c1eb5d
 
 1. Submit a project through the [Project Interest Form](https://docs.google.com/a/gsa.gov/forms/d/1w0eSRMWwgwsi-7OYmBAVkOmQnhzXbQRU6JGXUd6Xrps/viewform).
 
