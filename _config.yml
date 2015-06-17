@@ -23,8 +23,11 @@ logoalt: 18F logo
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
+- text: Information for vendors
   url: index.html
+  internal: true
+- text: Information for buyers
+  url: buyers/
   internal: true
 - text: How can I use the Agile BPA
   url: how-can-i-use-the-agile-bpa/
