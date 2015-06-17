@@ -1,7 +1,7 @@
 ---
-permalink: /how-can-i-use-the-agile-bpa/
+permalink: /how-can-agencies-use-the-agile-bpa/
 layout: default
-title: How can I use the Agile BPA?
+title: How can agencies use the Agile BPA?
 ---
 
 Although only 18F may issue task orders against the BPA, any federal agency may obtain services through 18F. If your agency has a project that is appropriate for the Agile BPA, we can help!
