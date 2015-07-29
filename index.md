@@ -5,7 +5,7 @@ title: Information for Vendors
 ---
 18F is partnering with the General Service Administrations's (GSA) [Office of Integrated Technology Services](http://www.gsa.gov/portal/content/105150) to establish a government-wide blanket purchase agreement (BPA) featuring vendors specializing in agile delivery services (e.g., user-centered design, agile software development, DevOps).
 
-**You can view our [Request for Quotation (RFQ) here](https://pages.18f.gov/ads-bpa/assets/ADS_RFQ_Final.pdf).** The [eBuy](https://www.ebuy.gsa.gov/advantage/ebuy/start_page.do) number for the RFQ is RFQ993471.
+**You can view our [Request for Quotation (RFQ) here](https://github.com/18F/ads-bpa/blob/18f-pages/assets/ADS%20RFQ%20Revised%20Modification%205.pdf).** The [eBuy](https://www.ebuy.gsa.gov/advantage/ebuy/start_page.do) number for the RFQ is RFQ993471.
 
 As you’ll see in the RFQ, we are requiring vendors currently on
 [GSA Schedule 70](http://gsa.gov/portal/content/104506) who want to be on the Agile
