@@ -13,20 +13,40 @@ The Agile Digital Services Blanket Purchase Agreement (Agile BPA), which will so
 
 The Agile BPA is 18F's contract vehicle to acquire development, design, and full-stack teams to help work on 18F-managed projects. Through the Agile BPA, 18F will hire vendors with [labor categories](https://pages.18f.gov/agile-labor-categories/) ranging from Backend Web Developers to Visual Designers to Content Strategists. Vendors will be able to compete among three pools:
 
-- Design (small businesses only)
-- Development (small businesses only)
-- Full stack (unrestricted)
+-  Pool One: Design (small businesses only)
+-  Pool Two: Development (small businesses only)
+-  Pool Three: Full stack (unrestricted)
 
 ## Which vendors are on the Agile BPA?
 
-We don't know yet. For the alpha stage, all vendors must be on [GSA Schedule 70](http://gsa.gov/schedule70). The beta version of the BPA will include an outreach component for onboarding new companies onto Schedule 70 who want to compete for a spot on the BPA. When the first awards are issued, we will update this site.
+Pool Three vendors:
+
+* Acumen Solutions Inc
+* Applied Information Sciences Inc
+* Booz Allen Hamilton Inc
+* DSoft Technology Company
+* Environmental Systems Research Institute Inc.
+* Flexion Inc.
+* InQbation
+* NCI Information Systems Inc
+* PricewaterhouseCoopers Public Sector LLP
+* SemanticBits
+* TechFlow Inc
+* TeraLogics LLC
+* Three Wire Systems LLC
+* True Tandem LLC
+* Vencore Services and Solutions Inc
+* Ventera Corporation
+* World Wide Technology
+
+Vendors have not yet been awarded for Pool One and Two. For the alpha stage, all vendors must be on [GSA Schedule 70](http://gsa.gov/schedule70). The beta version of the BPA will include an outreach component for onboarding new companies onto Schedule 70 who want to compete for a spot on the BPA.
 
 ## What makes the Agile BPA different?
 
-There are several differences between the Agile BPA and most other traditional IT services contract vehicles: 
+There are several differences between the Agile BPA and most other traditional IT services contract vehicles:
 
-1. We use [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/). The most important thing for us is the ability to ship high-quality working software. 
+1. We use [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/). The most important thing for us is the ability to ship high-quality working software.
 
-2. We use an *iterative and incremental approach* to the use of agile procurement. This will allow us to focus on building the appropriate processes and tools, and help us scale over time. 
+2. We use an *iterative and incremental approach* to the use of agile procurement. This will allow us to focus on building the appropriate processes and tools, and help us scale over time.
 
 3. We make the procurements themselves reflect agile development. We plan to issue task orders — consistent with the [TechFAR](https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md) — that feature shorter time-frames, smaller dollar amounts, and user-centered design principles.
