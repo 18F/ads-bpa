@@ -18,7 +18,6 @@ Through the Agile BPA, 18F hires vendors with [labor categories](https://pages.1
 
 Vendors compete among three pools: Pool One is design (small businesses only), Pool Two is development (small businesses only), and Pool Three is full stack (unrestricted). [Vendors have been awarded for Pool Three, and we're working on Pools One and Two.](https://18f.gsa.gov/2015/12/17/the-agile-bpa-is-ready-to-launch/)
 
-
 ## How working with the Agile BPA is different from typical contract vehicles
 
 ### Smaller contracts
@@ -35,7 +34,7 @@ After your initial intake discussions with 18F, there will be a few main steps f
 2. 18F will conduct a project acquisition workshop.
 3. 18F will acquire one or more Agile BPA vendors.
 4. 18F will lead a project inception workshop with the agency and the vendor(s).
-5. Delivery.
+5. 18F will manage the vendor's post-award delivery of the product.
 
 ## <a name="vendors"></a>Vendors on the Agile BPA
 
