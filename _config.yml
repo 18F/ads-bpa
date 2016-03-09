@@ -23,18 +23,15 @@ logoalt: 18F logo
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Information for vendors
+- text: Introduction and updates
   url: index.html
   internal: true
-- text: Information for buyers
+- text: Information for agency partners
   url: buyers/
   internal: true
-- text: How can agencies use the Agile BPA
-  url: how-can-agencies-use-the-agile-bpa/
+- text: Information for vendors
+  url: vendors/
   internal: true
-- text: Submit a Project for the Agile BPA
-  url: https://docs.google.com/a/gsa.gov/forms/d/1w0eSRMWwgwsi-7OYmBAVkOmQnhzXbQRU6JGXUd6Xrps/viewform
-  internal: false
 - text: Contact 18F
   url: contact-18f/
   internal: true
