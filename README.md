@@ -1,6 +1,6 @@
 ## ADS-BPA
 
-A *draft* guide for the Agile Delivery Services Blanket Purchase Agreement: [https://pages.18f.gov/ads-bpa/](https://pages.18f.gov/ads-bpa/)
+A guide for the Agile Delivery Services Blanket Purchase Agreement: [https://pages.18f.gov/ads-bpa/](https://pages.18f.gov/ads-bpa/)
 
 ### Generating the site/hosting locally
 
