@@ -4,17 +4,17 @@ layout: default
 title: 18F's Agile Blanket Purchase Agreement expands to offer actual blankets
 ---
 
-In keeping with its mission to transform the way the federal government builds and buys digital services, 18F set out to find a new way of procuring digital services: [at the speed of agile development cycles](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/). We are sufficinetly pleased with our new Agile Blanket Purchase Agreement that we've decided to expand our offerings to include actual blankets via the "18FABPAfAB" - the "18F Agile Blanket Purchase Agreement for Actual Blankets."
+In keeping with its mission to transform the way the federal government builds and buys digital services, 18F set out to find a new way of procuring digital services: [at the speed of agile development cycles](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/). We are sufficiently pleased with our new Agile Blanket Purchase Agreement that we've decided to expand our offerings to include actual blankets via the "18FABPAfAB" &mdash; the "18F Agile Blanket Purchase Agreement for Actual Blankets."
 
 [Insert public domain image of blankets]
 
 For this work, 18F partnered with the General Service Administration (GSA) [Office of Warm Bedding Services](https://pages.18f.gov/ads-bpa//actual-blankets) to establish a [blanket purchase agreement (BPA)](http://www.gsa.gov/portal/content/199353) featuring vendors specializing in blankets and related bedding (e.g., duvets, comforters, quilts).
 
-The 18FABPAfAB is different from most other traditional bedding services contract vehicles. It uses [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/): the most important thing for us is the ability to ship high-quality working blankets from day 1. We plan to issue task orders — consistent with the [TechFAR](https://playbook.cio.gov/techfar/) — that feature shorter time-frames, smaller dollar amounts, and user-centered design principles, so our blankets are a better fit for the diverse needs of the public. For example, blankets in Georgia will have automatic pollen absorbtion capabilities while blankets in California will be purely decorative as 18Fers in the state report its never actually that cold there.
+The 18FABPAfAB is different from most other traditional bedding services contract vehicles. It uses [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/): the most important thing for us is the ability to ship high-quality working blankets from day 1. We plan to issue task orders — consistent with the [TechFAR](https://playbook.cio.gov/techfar/) — that feature shorter time-frames, smaller dollar amounts, and user-centered design principles, so our blankets are a better fit for the diverse needs of the public. For example, blankets in Georgia will have automatic pollen absorption capabilities, while blankets in California will be purely decorative, as 18Fers in the state report it's never actually that cold there.
 
 If this step is successful, we may expand the 18FABPAfAB to include vendors specializing in blanketing as a gerund (e.g., cloaking, coating, shrouding, carpeting).
 
-We use an *iterative and incremental* approach to the use of agile procurement. This will allow us to focus on building the appropriate blanket catalog, and help us scale over time to SDDBS - Same Day Delivery Bedding Services.
+We use an *iterative and incremental* approach to the use of agile procurement. This will allow us to focus on building the appropriate blanket catalog, and help us scale over time to SDDBS: Same-Day Delivery-of-Bedding Services.
 
 #Get updates
 * [Read 18F blog posts about the Agile BPA](https://18f.gsa.gov/tags/agile-bpa/)
