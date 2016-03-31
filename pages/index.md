@@ -16,7 +16,7 @@ We use an *iterative and incremental* approach to the use of agile procurement. 
 
 [**Learn more as a vendor.**](vendors/)
 
-#Get updates
+## Get updates
 
 * [Read 18F blog posts about the Agile BPA](https://18f.gsa.gov/tags/agile-bpa/)
 

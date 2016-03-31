@@ -1,0 +1,152 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"width": 951,
+				"tags": [
+					"search"
+				],
+				"grid": 0
+			},
+			"attrs": [],
+			"properties": {
+				"order": 1,
+				"id": 0,
+				"prevSize": 28,
+				"code": 59648,
+				"name": "search"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M864 0c88.364 0 160 71.634 160 160 0 36.020-11.91 69.258-32 96l-64 64-224-224 64-64c26.742-20.090 59.978-32 96-32zM64 736l-64 288 288-64 592-592-224-224-592 592zM715.578 363.578l-448 448-55.156-55.156 448-448 55.156 55.156z"
+				],
+				"attrs": [],
+				"tags": [
+					"pencil",
+					"write",
+					"edit"
+				],
+				"defaultCode": 57357,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 64,
+				"order": 9,
+				"prevSize": 32,
+				"code": 59653,
+				"ligatures": "pencil, write",
+				"name": "pencil"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 5
+		},
+		{
+			"icon": {
+				"paths": [
+					"M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"
+				],
+				"attrs": [],
+				"tags": [
+					"search",
+					"magnifier",
+					"magnifying-glass",
+					"inspect",
+					"find"
+				],
+				"defaultCode": 57786,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 532,
+				"order": 2,
+				"prevSize": 32,
+				"code": 59782,
+				"ligatures": "search, magnifier",
+				"name": "search_big"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 134
+		},
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"attrs": [],
+				"tags": [
+					"menu",
+					"list",
+					"options",
+					"lines",
+					"hamburger"
+				],
+				"defaultCode": 58031,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 8,
+				"id": 1448,
+				"prevSize": 32,
+				"code": 59837,
+				"ligatures": "menu, list3",
+				"name": "menu"
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 189
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": false,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215,
+			"classSelector": ".icon"
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16,
+		"quickUsageToken": {
+			"UntitledProject": "ODg2YTQyMGM3NmI2Yjg0Mzg1NmExYWY1ODliMGFmNzAjMSMxNDUzMzExNDQ4IyMj"
+		}
+	}
+}

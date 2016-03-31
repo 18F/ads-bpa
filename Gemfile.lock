@@ -14,13 +14,6 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
-    go_script (0.1.4)
-      bundler (~> 1.10)
-      safe_yaml (~> 1.0)
-    guides_style_18f (0.1.1)
-      jekyll (~> 2.5)
-      rouge (~> 1.9)
-      sass (~> 3.4)
     hitimes (1.2.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
@@ -62,7 +55,6 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.3)
-    rouge (1.9.0)
     safe_yaml (1.0.4)
     sass (3.4.13)
     timers (4.0.1)
@@ -75,8 +67,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  go_script
-  guides_style_18f
   jekyll
 
 BUNDLED WITH
