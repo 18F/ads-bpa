@@ -3,6 +3,7 @@ permalink: /actual-blankets
 layout: default
 title: 18F's Agile Blanket Purchase Agreement expands to offer actual blankets
 ---
+April 1, 2016
 
 In keeping with its mission to transform the way the federal government builds and buys digital services, 18F set out to find a new way of procuring digital services: [at the speed of agile development cycles](https://18f.gsa.gov/2015/01/08/creating-a-federal-marketplace-for-agile-delivery-services/). We are sufficiently pleased with our new Agile Blanket Purchase Agreement that we've decided to expand our offerings to include actual blankets via the "18FABPAfAB" &mdash; the "18F Agile Blanket Purchase Agreement for Actual Blankets."
 
@@ -16,5 +17,4 @@ If this step is successful, we may expand the 18FABPAfAB to include vendors spec
 
 We use an *iterative and incremental* approach to the use of agile procurement. This will allow us to focus on building the appropriate blanket catalog, and help us scale over time to SDDBS: Same-Day Delivery-of-Bedding Services.
 
-#Get updates
-* [Read 18F blog posts about the Agile BPA](https://18f.gsa.gov/tags/agile-bpa/)
+Special note: this was an April Fools page, but you can [read real 18F blog posts about the Agile BPA](https://18f.gsa.gov/tags/agile-bpa/)
