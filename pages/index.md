@@ -23,7 +23,7 @@ title: Introduction and updates
         <dd class="solicitation-period-of-performance">60 days</dd>
         <dt class="solicitation-description">Description</dt>
         <dd class="solicitation-description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>The scope of this task order is for the Contractor to deliver the public beta launch of the Federal Risk and Authorization Management Program (FedRAMP) dashboard.</p>
         </dd>
         <dt class="solicitation-repository">Repository</dt>
         <dd class="solicitation-repository"><a href="https://github.com/18F/bpa-fedramp-dashboard">GitHub</a></p>
