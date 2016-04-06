@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/stylesheets/screen.css */
+
 /* @override http://localhost:4000/ads-bpa/stylesheets/screen.css */
 
 /* @group bootstrap */
@@ -26,6 +28,15 @@ a:visited{  color: #8d0058; }
 	position: absolute;
 	left: -9999em;
 }
+
+.a-back{
+	display: block;
+	color: inherit;
+	margin: 0 auto;
+	max-width: 640px;
+	margin-bottom: 1em;
+}
+
 ::selection {
   background: #ffe4c5; /* WebKit/Blink Browsers */
 }
@@ -86,45 +97,6 @@ main{
 
 img { max-width: 100%; }
 
-/* @group icomoon */
-
-@font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?8ojtgr');
-    src:    url('fonts/icomoon.eot?8ojtgr#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?8ojtgr') format('truetype'),
-        url('fonts/icomoon.woff?8ojtgr') format('woff'),
-        url('fonts/icomoon.svg?8ojtgr#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-pencil:before {
-    content: "\e905";
-}
-.icon-menu:before {
-    content: "\e9bd";
-}
-
-
-
-/* @end */
-
 
 /* @end */
 
@@ -141,12 +113,11 @@ img { max-width: 100%; }
 	max-width: 35.5em;
 }
 
-
 .site-header h1 a{
-	font-size: 20px;
+	font-size: 16px;
 	color: inherit;
 	text-decoration: none;
-	line-height: 40px;
+	line-height: 32px;
 }
 
 .site-header img{
@@ -362,7 +333,7 @@ img { max-width: 100%; }
 	max-width: none;
 }
 
-.page .page-title,
+.page-title,
 .page h1,
 .page h2,
 .page h3,
@@ -439,7 +410,7 @@ a[id]{
 }
 
 .page h1,
-.page .page-title{
+.page-title{
 	margin-bottom: 0.67em;
 	font-size: 36px;
 	font-weight: 600;
@@ -542,7 +513,7 @@ a[id]{
 	.page ol,
 	.page dl,
 	.page li{
-		width: 90%;
+		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -1186,5 +1157,287 @@ a[id]{
 }
 
 /* @end */
+
+/* @end */
+
+/* @group .solicitation */
+
+.solicitations > h1{ 
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 1em; 
+	max-width: 640px;
+	margin: 0 auto 0.8em;
+}
+
+.solicitation{
+	max-width: 640px;
+	margin: 0 auto 1em;
+	border: 1px solid #ccc;
+	padding: 1em;
+	position: relative;
+	border-radius: 0.33rem;
+}
+
+.solicitation dt{
+	text-transform: uppercase;
+	color: #777;
+	font-size: 12px;
+	margin-bottom: 0.4em;
+}
+
+.solicitation dd{
+	margin-bottom: 1.4rem;
+}
+
+.solicitation dd.solicitation-title{
+	font-size: 20px;
+	padding-right: 8rem;
+}
+
+.solicitation dt.solicitation-date::after{ content: ": "; }
+
+.solicitation .solicitation-description p{
+	line-height: 1.4em;
+	font-size: 16px;
+}
+
+main .wrapper aside h1{
+	font-size: 24px;
+	letter-spacing: 0;
+}
+
+main .wrapper aside p,
+main .wrapper aside ul{
+	font: inherit;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+main .wrapper aside .learn-more,
+main .wrapper aside .learn-more-federal-agency,
+main .wrapper aside .learn-more-vendor{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	padding: 0;
+}
+
+main .wrapper aside .learn-more-federal-agency a,
+main .wrapper aside .learn-more-vendor a{ 
+	border: 1px solid #ddd;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	text-align: center;
+	display: block;
+	border-radius: 3px;
+	background: #eee;
+}
+
+
+@media screen and (min-width: 533.33px){
+	.solicitations > h1{
+		font-size: 32px;
+		letter-spacing: -1px;
+	}
+}
+
+@media screen and (min-width: 711.11px){
+
+.solicitation{ 
+	padding: 0; 
+	line-height: 1rem;
+}	
+
+.solicitation dt,
+.solicitation dd{
+	margin-bottom: 0;
+}
+
+.solicitation dt{
+	padding-bottom: 0.6rem;
+}
+
+.solicitation::after{
+	content: "";
+	display: table;
+	clear: both;
+}	
+
+.solicitation .solicitation-title{
+	margin-right: 8rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.solicitation .solicitation-id{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 8rem;
+	height: 1.85rem;
+	padding-left: 0.5rem;
+}
+
+.solicitation dd.solicitation-id{
+	top: 2.4rem;
+	border-bottom: 1px solid #eee;
+}
+
+.solicitation .solicitation-title,
+.solicitation .solicitation-agency,
+.solicitation .solicitation-date,
+.solicitation .solicitation-repository,
+.solicitation .solicitation-description{
+	padding-left: 1rem;
+}
+
+.solicitation .solicitation-agency,
+.solicitation .solicitation-office,
+.solicitation .solicitation-date,
+.solicitation .solicitation-period-of-performance{
+	width: 50%;
+	float: left;
+	clear: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.solicitation dt.solicitation-title,
+.solicitation dt.solicitation-id,
+.solicitation dt.solicitation-agency,
+.solicitation dt.solicitation-office,
+.solicitation dt.solicitation-date,
+.solicitation dt.solicitation-period-of-performance,
+.solicitation dt.solicitation-description,
+.solicitation dt.solicitation-repository{
+	padding-top: 0.8rem;
+}
+
+.solicitation dd.solicitation-agency,
+.solicitation dd.solicitation-office,
+.solicitation dd.solicitation-date,
+.solicitation dd.solicitation-period-of-performance,
+.solicitation dd.solicitation-description,
+.solicitation dd.solicitation-repository{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0.8rem;
+}
+
+.solicitation dd.solicitation-repository{ 
+	border: none; 
+	padding-bottom: 1.2rem;
+}
+
+.solicitation .solicitation-title,
+.solicitation .solicitation-agency,
+.solicitation .solicitation-date{ 
+	padding-left: 1rem; 
+	padding-right: 0.5rem;
+	border-right: 1px solid #eee;
+}
+
+
+.solicitation .solicitation-office,
+.solicitation .solicitation-period-of-performance{
+	float: right;
+	clear: right;
+	padding-right: 1rem; 
+	padding-left: 0.5rem;
+}
+
+.solicitation dt.solicitation-office,
+.solicitation dt.solicitation-period-of-performance{
+	margin-top: -2.4rem;
+}
+
+.solicitation .solicitation-title,
+.solicitation .solicitation-date,
+.solicitation .solicitation-description,
+.solicitation .solicitation-repository{
+	clear: both;
+}
+
+.solicitation dd.solicitation-title{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0.8rem;
+}
+
+.solicitation .solicitation-description{
+	margin-bottom: 0;
+	padding-right: 1rem;
+}
+
+
+}
+
+@media screen and (min-width: 1066.66px){
+	.site-header div.wrapper{
+		max-width: 960px;
+	}
+	main  > .feed > .wrapper{
+		padding-right: 320px;
+	}
+	
+	main .wrapper section.solicitations,
+	main .wrapper aside{
+		float: left;
+		width: 100%;
+	}
+	
+	main .wrapper section.solicitations > h1{
+		margin-left: 0;
+	}
+	
+	main .wrapper aside{
+		width: 296px;
+		margin-right: -296px;
+		position: relative;
+		left: 32px;
+		top: 16px;
+		color: #555;
+	}
+	
+	
+	main aside.page h1,
+	main aside.page h2,
+	main aside.page h3,
+	main aside.page h4,
+	main aside.page h5,
+	main aside.page figure,
+	main aside.page p,
+	main aside.page ul,
+	main aside.page ol,
+	main aside.page dl,
+	main aside.page li{
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.45em;
+		font-size: 14px;
+	}
+
+	
+	main .wrapper aside h1,
+	main .wrapper aside h2{
+		font-size: 20px;
+		letter-spacing: 0;
+		color: #666;
+	}
+	
+	main .wrapper aside h2{
+		font: inherit;
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	
+	main .wrapper aside a{ color: inherit; }
+	main .wrapper aside a:hover{ text-decoration: none; }
+
+	
+}
 
 /* @end */

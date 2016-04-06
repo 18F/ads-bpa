@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="no-js layout-article layout-article-{{ page.title | slugify }}">
+  <body class="no-js layout-feed layout-feed-{{ page.title | slugify }}">
     <a class="a-skip-to-main" href="#main">Skip to main content</a>
     {% include site-header.html %}
 
-    <main id="main" class="article" role="main">
-      <div class="page">
+    <main id="main" role="main">
+      <div class="feed">
         <div class="wrapper">
-            <a href="/" class="a-back">&larr; Back to home</a>
-            <h1>{{ page.title }}</h1>
-            {{ content }}        
+          {{ content }}        
         </div>
       </div>
     </main>
