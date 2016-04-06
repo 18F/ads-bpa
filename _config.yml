@@ -1,4 +1,3 @@
-baseurl: /ads-bpa
 markdown: redcarpet
 name: Agile Delivery Services Blanket Purchase Agreement
 exclude:
@@ -15,10 +14,6 @@ permalink: pretty
 author:
   name: 18F
   url: https://18f.gsa.gov
-
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/18f-logo.png
-logoalt: 18F logo
 
 # Navigation
 # List links that should appear in the site sidebar here
@@ -39,9 +34,5 @@ navigation:
 repos:
 - name: Agile Delivery Services BPA Guide
   description: Main repository
-  url: https://github.com/18F/ads-bpa
-
-# Style Variables
-brand_color: "#1188ff"
 
 google_analytics_ua: UA-48605964-19
