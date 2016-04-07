@@ -7,80 +7,32 @@ title: Introduction and updates
 <section class="solicitations">
   <h1>Upcoming solicitations</h1>
   <ol class="solicitations">
+  {% for order in site.data.orders %}
     <li>
       <dl class="solicitation">
+      {{order.Requesting_Agency}}
         <dt class="solicitation-id">ID</dt>
-        <dd class="solicitation-id">#ID09160019</dd>
+        <dd class="solicitation-id">{% if order.rfq_id %}#{{order.rfq_id}}{%else%}TBD{% endif %}</dd>
         <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>FedRAMP Dashboard</h1></dd>
+        <dd class="solicitation-title"><h1>{{order.title}}</h1></dd>
         <dt class="solicitation-agency">Agency</dt>
-        <dd class="solicitation-agency">General Services Administration</dd>
+        <dd class="solicitation-agency">{{order.requesting_agency}}</dd>
         <dt class="solicitation-office">Office</dt>
-        <dd class="solicitation-office">FedRAMP</dd>
+        <dd class="solicitation-office">{{order.office}}</dd>
         <dt class="solicitation-date">Anticipated solicitation date</dt>
-        <dd class="solicitation-date"><time datetime="2016-03-30">March 30th, 2016</time></dd>
+        <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date | date: "%B %d, %Y" }}</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
-        <dd class="solicitation-period-of-performance">60 days</dd>
+        <dd class="solicitation-period-of-performance">{{order.period_of_performance}}</dd>
         <dt class="solicitation-description">Description</dt>
         <dd class="solicitation-description">
-        <p>The scope of this task order is for the Contractor to deliver the public beta launch of the Federal Risk and Authorization Management Program (FedRAMP) dashboard.</p>
+        <p>{{order.description}}</p>
         </dd>
         <dt class="solicitation-repository">Repository</dt>
-        <dd class="solicitation-repository"><a href="https://github.com/18F/bpa-fedramp-dashboard">GitHub</a></p>
+        <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p>
         </dd>
       </dl>
-    </li>  
-    <li>
-      <dl class="solicitation">
-        <dt class="solicitation-id">ID</dt>
-        <dd class="solicitation-id">TBD</dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>Identity Management Scrum Team</h1></dd>
-        <dt class="solicitation-agency">Agency</dt>
-        <dd class="solicitation-agency">General Services Administration</dd>
-        <dt class="solicitation-office">Office</dt>
-        <dd class="solicitation-office">18F</dd>
-        <dt class="solicitation-date">Anticipated solicitation date</dt>
-        <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
-        <dt class="solicitation-period-of-performance">Period of performance</dt>
-        <dd class="solicitation-period-of-performance">TBD</dd>
-        </dd>
-      </dl>
-    </li>  
-    <li>
-      <dl class="solicitation">
-        <dt class="solicitation-id">ID</dt>
-        <dd class="solicitation-id">TBD</dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>e-Manifest</h1></dd>
-        <dt class="solicitation-agency">Agency</dt>
-        <dd class="solicitation-agency">Environmental Protection Agency</dd>
-        <dt class="solicitation-office">Office</dt>
-        <dd class="solicitation-office">Office of Land and Emergency Management </dd>
-        <dt class="solicitation-date">Anticipated solicitation date</dt>
-        <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
-        <dt class="solicitation-period-of-performance">Period of performance</dt>
-        <dd class="solicitation-period-of-performance">TBD</dd>
-        </dd>
-      </dl>
-    </li>  
-    <li>
-      <dl class="solicitation">
-        <dt class="solicitation-id">ID</dt>
-        <dd class="solicitation-id">TBD</dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>14(c) Development</h1></dd>
-        <dt class="solicitation-agency">Agency</dt>
-        <dd class="solicitation-agency">Department of Labor</dd>
-        <dt class="solicitation-office">Office</dt>
-        <dd class="solicitation-office">Wage and Hour Division</dd>
-        <dt class="solicitation-date">Anticipated solicitation date</dt>
-        <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
-        <dt class="solicitation-period-of-performance">Period of performance</dt>
-        <dd class="solicitation-period-of-performance">TBD</dd>
-        </dd>
-      </dl>
-    </li>  
+    </li>
+    {% endfor %}
   </ol>
 </section>
 

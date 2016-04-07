@@ -41,20 +41,6 @@ After your initial intake discussions with 18F, there will be a few main steps f
 
 Pool Three vendors:
 
-* Acumen Solutions Inc
-* Applied Information Sciences Inc
-* Booz Allen Hamilton Inc
-* DSoft Technology Company
-* Environmental Systems Research Institute Inc.
-* Flexion Inc.
-* InQbation
-* NCI Information Systems Inc
-* PricewaterhouseCoopers Public Sector LLP
-* SemanticBits
-* TechFlow Inc
-* TeraLogics LLC
-* Three Wire Systems LLC
-* True Tandem LLC
-* Vencore Services and Solutions Inc
-* Ventera Corporation
-* World Wide Technology
+{% for vendor in site.data.vendors.vendors %}
+- {{vendor.name}}
+{% endfor %}
