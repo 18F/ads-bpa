@@ -19,9 +19,8 @@ body{
 	background: #f8f8f8;
 }
 
-a{  color: #006fbe; text-decoration: ;}
+a{  color: #006fbe; }
 a:hover{ color: #00aedf; }
-
 a:visited{  color: #8d0058; }
 
 .a-skip-to-main{
@@ -33,7 +32,7 @@ a:visited{  color: #8d0058; }
 	display: block;
 	color: inherit;
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 960px;
 	margin-bottom: 1em;
 }
 
@@ -1214,24 +1213,10 @@ main .wrapper aside ul{
 	line-height: 1.5em;
 }
 
-main .wrapper aside .learn-more,
-main .wrapper aside .learn-more-federal-agency,
-main .wrapper aside .learn-more-vendor{
-	display: block;
-	margin: 0 auto;
-	width: auto;
-	padding: 0;
-}
 
 main .wrapper aside .learn-more-federal-agency a,
 main .wrapper aside .learn-more-vendor a{ 
-	border: 1px solid #ddd;
-	margin-bottom: 1em;
-	padding: 0.5em;
-	text-align: center;
-	display: block;
-	border-radius: 3px;
-	background: #eee;
+	color: ;
 }
 
 
@@ -1326,6 +1311,15 @@ main .wrapper aside .learn-more-vendor a{
 	padding-bottom: 0.8rem;
 }
 
+.solicitation dt.solicitation-description{
+	border-top: 1px solid #eee;
+}
+
+.solicitation dd.solicitation-date,
+.solicitation dd.solicitation-period-of-performance{
+	border-bottom: 0;
+}
+
 .solicitation dd.solicitation-repository{ 
 	border: none; 
 	padding-bottom: 1.2rem;
@@ -1374,7 +1368,8 @@ main .wrapper aside .learn-more-vendor a{
 }
 
 @media screen and (min-width: 1066.66px){
-	.site-header div.wrapper{
+	.site-header div.wrapper,
+	.site-footer div.wrapper{
 		max-width: 960px;
 	}
 	main  > .feed > .wrapper{
@@ -1432,11 +1427,18 @@ main .wrapper aside .learn-more-vendor a{
 		font-size: 14px;
 		font-weight: 600;
 		text-transform: uppercase;
+		margin-top: 1.2em;
+		margin-bottom: 0.8em;
 	}
 	
-	main .wrapper aside a{ color: inherit; }
-	main .wrapper aside a:hover{ text-decoration: none; }
+	main .wrapper aside ul+h1{
+	margin-top: 1.2em;
+	}
 
+	main .wrapper aside a{  color: inherit; }
+	main .wrapper aside ul a{  color: #006fbe; }
+	main .wrapper aside ul a:hover{ color: #00aedf; }
+	main .wrapper aside ul a:visited{  color: #8d0058; }
 	
 }
 

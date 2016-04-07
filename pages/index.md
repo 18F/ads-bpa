@@ -12,7 +12,7 @@ title: Introduction and updates
         <dt class="solicitation-id">ID</dt>
         <dd class="solicitation-id">#ID09160019</dd>
         <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>Title of the solicitation</h1></dd>
+        <dd class="solicitation-title"><h1>FedRAMP Dashboard</h1></dd>
         <dt class="solicitation-agency">Agency</dt>
         <dd class="solicitation-agency">General Services Administration</dd>
         <dt class="solicitation-office">Office</dt>
@@ -32,12 +32,14 @@ title: Introduction and updates
     </li>  
     <li>
       <dl class="solicitation">
+        <dt class="solicitation-id">ID</dt>
+        <dd class="solicitation-id">TBD</dd>
+        <dt class="solicitation-title">Title</dt>
+        <dd class="solicitation-title"><h1>Identity Management Scrum Team</h1></dd>
         <dt class="solicitation-agency">Agency</dt>
         <dd class="solicitation-agency">General Services Administration</dd>
         <dt class="solicitation-office">Office</dt>
         <dd class="solicitation-office">18F</dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>Identity Management Scrum Team</h1></dd>
         <dt class="solicitation-date">Anticipated solicitation date</dt>
         <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
@@ -47,12 +49,14 @@ title: Introduction and updates
     </li>  
     <li>
       <dl class="solicitation">
+        <dt class="solicitation-id">ID</dt>
+        <dd class="solicitation-id">TBD</dd>
+        <dt class="solicitation-title">Title</dt>
+        <dd class="solicitation-title"><h1>e-Manifest</h1></dd>
         <dt class="solicitation-agency">Agency</dt>
         <dd class="solicitation-agency">Environmental Protection Agency</dd>
         <dt class="solicitation-office">Office</dt>
         <dd class="solicitation-office">Office of Land and Emergency Management </dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>e-Manifest</h1></dd>
         <dt class="solicitation-date">Anticipated solicitation date</dt>
         <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
@@ -62,12 +66,14 @@ title: Introduction and updates
     </li>  
     <li>
       <dl class="solicitation">
+        <dt class="solicitation-id">ID</dt>
+        <dd class="solicitation-id">TBD</dd>
+        <dt class="solicitation-title">Title</dt>
+        <dd class="solicitation-title"><h1>14(c) Development</h1></dd>
         <dt class="solicitation-agency">Agency</dt>
         <dd class="solicitation-agency">Department of Labor</dd>
         <dt class="solicitation-office">Office</dt>
         <dd class="solicitation-office">Wage and Hour Division</dd>
-        <dt class="solicitation-title">Title</dt>
-        <dd class="solicitation-title"><h1>14(c) Development</h1></dd>
         <dt class="solicitation-date">Anticipated solicitation date</dt>
         <dd class="solicitation-date"><time datetime="2016-04">April, 2016</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
@@ -85,12 +91,12 @@ title: Introduction and updates
     <p>18F partnered with the General Service Administration (GSA) <a href="https://www.gsa.gov/portal/content/105150">Office of Integrated Technology Services</a> to establish a <a href="http://www.gsa.gov/portal/content/199353">blanket purchase agreement (BPA)</a> featuring vendors specializing in agile delivery services (e.g., user-centered design, agile software development, DevOps). The <strong>Agile Delivery Services BPA (Agile BPA)</strong> represents an effort to align acquisition practices with agile delivery practices.</p>
     <p>The Agile BPA is different from most other traditional IT services contract vehicles. It uses <a href="https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/">novel ways to select vendors</a>: the most important thing for us is the ability to ship high-quality working software. We plan to issue task orders &mdash; consistent with the <a href="https://playbook.cio.gov/techfar/">TechFAR</a> &mdash; that feature shorter time-frames, smaller dollar amounts, and user-centered design principles.</div>
     <p>We use an <strong>iterative and incremental</strong> approach to the use of agile procurement. This will allow us to focus on building the appropriate processes and tools, and help us scale over time.</p>
-    <p>Learn more as a </p>
+    <h2>Learn more as a </h2>
     <ul class="learn-more">
       <li class="learn-more-federal-agency"><a href="buyers/">Federal agency interested in buying services</a></li>
       <li class="learn-more-vendor"><a href="vendors/">Vendor</a></li>
     </ul>
-    <h2>Get updates</h2>
+    <h1>Get updates</h1>
     <ul>
       <li><a href="https://18f.gsa.gov/tags/agile-bpa/">Read 18F blog posts about the Agile BPA</a></li>
       <li><a href="https://eepurl.com/bJQHFr">Subscribe to the 18F acquisition news email list</a></li>
