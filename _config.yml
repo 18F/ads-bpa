@@ -36,6 +36,3 @@ repos:
   description: Main repository
 
 google_analytics_ua: UA-48605964-19
-
-# Data Source
-data_source: data
