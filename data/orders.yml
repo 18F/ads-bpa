@@ -1,0 +1,30 @@
+- requesting_agency: General Services Administration
+  office: FedRAMP
+  rfq_id: ID09160019
+  title: Public Beta Dashboard
+  solicitation_date: 2016-03-16
+  period_of_performance: 60 days
+  repository: 'https://github.com/18F/bpa-fedramp-dashboard'
+  description: |
+    The scope of this task order is for the Contractor to deliver the public beta launch of the Federal Risk and Authorization Management Program (FedRAMP) dashboard.
+- requesting_agency: General Services Administration
+  office: 18F
+  rfq_id: null
+  title: Identity Management Scrum Team
+  solicitation_date: (2016-04)
+  period_of_performance: TBD
+  repository: null
+- requesting_agency: Environmental Protection Agency
+  office: Office of Land and Emergency Management
+  rfq_id: null
+  title: e-Manifest
+  solicitation_date: (2016-04)
+  period_of_performance: TBD
+  repository: null
+- requesting_agency: Department of Labor
+  office: Wage and Hour Division
+  rfq_id: null
+  title: 14(c) Development
+  solicitation_date: (2016-04)
+  period_of_performance: TBD
+  repository: null
