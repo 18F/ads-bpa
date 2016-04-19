@@ -1,0 +1,24 @@
+---
+
+---
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://pages.18f.gov/ads-bpa/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://pages.18f.gov/ads-bpa/" rel="alternate" type="text/html"/>
+  <updated>{{site.time | date_to_xmlschema }}</updated>
+  <id>https://pages.18f.gov/ads-bpa/</id>
+  <title>18F Digital Services Delivery</title>
+  <subtitle>
+    18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.
+  </subtitle>
+  {% for bpa in site.data.orders %}
+  <entry>
+    <title>{{ bpa.title }}</title>
+    <author>18F Acquisitions</author>
+    <published>{{ bpa.date_posted }}T00:00:00-04:00</published>
+    <updated>{{ bpa.date_updated }}T00:00:00-04:00</updated>
+    <id>https://pages.18f.gov/ads-bpa/</id>
+    <content type="html"><h1>{{bpa.title}} for {{bpa.office}} - {{bpa.requesting_agency}}</h1>{% if bpa.description %}<div>Description: {{bpa.description}}</div>{% endif %}<div>Period of performance: {{bpa.period_of_performance}}</div><div>Estimated solicitation date: {{bpa.estimated_solicitation_date}}</div>{% if bpa.rfq_id %}<div>RFQ ID: {{bpa.rfq_id}}</div>{% endif %}{% if bpa.repository %}<div>Repository: {{bpa.repository}}</div>{% endif %}</content>
+    <summary>{{bpa.title}} for {{bpa.office}} - {{bpa.requesting_agency}}</summary>
+  </entry>
+  {% endfor %}
+</feed>

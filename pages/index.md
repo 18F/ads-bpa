@@ -20,7 +20,7 @@ title: Introduction and updates
         <dt class="solicitation-office">Office</dt>
         <dd class="solicitation-office">{{order.office}}</dd>
         <dt class="solicitation-date">Anticipated solicitation date</dt>
-        <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date | date: "%B %d, %Y" }}</time></dd>
+        <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date}}</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
         <dd class="solicitation-period-of-performance">{{order.period_of_performance}}</dd>
         {% if order.description %}
