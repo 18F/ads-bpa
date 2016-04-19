@@ -2,10 +2,10 @@
 
 ---
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link href="https://18f.gsa.gov/feed/index.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://18f.gsa.gov/" rel="alternate" type="text/html"/>
-  <updated>2016-04-18T15:24:21-04:00</updated>
-  <id>https://18f.gsa.gov/</id>
+  <link href="https://pages.18f.gov/ads-bpa/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://pages.18f.gov/ads-bpa/" rel="alternate" type="text/html"/>
+  <updated>{{site.time | date_to_xmlschema }}</updated>
+  <id>https://pages.18f.gov/ads-bpa/</id>
   <title>18F Digital Services Delivery</title>
   <subtitle>
     18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves.
