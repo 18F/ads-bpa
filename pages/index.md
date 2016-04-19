@@ -23,16 +23,20 @@ title: Introduction and updates
         <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date | date: "%B %d, %Y" }}</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
         <dd class="solicitation-period-of-performance">{{order.period_of_performance}}</dd>
+        {% if order.description %}
         <dt class="solicitation-description">Description</dt>
         <dd class="solicitation-description">
         <p>{{order.description}}</p>
         </dd>
+        {% endif %}
+        {% if order.repository %}
         <dt class="solicitation-repository">Repository</dt>
         <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p>
+        {% endif %}
         </dd>
       </dl>
     </li>
-    {% endfor %}
+  {% endfor %}
   </ol>
 </section>
 
