@@ -52,6 +52,10 @@ title: Introduction and updates
       <li class="learn-more-federal-agency"><a href="buyers/">Federal agency interested in buying services</a></li>
       <li class="learn-more-vendor"><a href="vendors/">Vendor</a></li>
     </ul>
+    <h1>Read the Ordering Guide</h1>
+    <ul>
+      <li><a href="/ordering-guide/">Read the Agile BPA Ordering Guide</a></li>
+    </ul>
     <h1>Get updates</h1>
     <ul>
       <li><a href="https://18f.gsa.gov/tags/agile-bpa/">Read 18F blog posts about the Agile BPA</a></li>
