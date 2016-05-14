@@ -54,7 +54,7 @@ title: Introduction and updates
     </ul>
     <h1>Read the Ordering Guide</h1>
     <ul>
-      <li><a href="/ordering-guide/">Read the Agile BPA Ordering Guide</a></li>
+      <li><a href="ordering-guide/">Read the Agile BPA Ordering Guide</a></li>
     </ul>
     <h1>Get updates</h1>
     <ul>
