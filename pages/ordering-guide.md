@@ -1,5 +1,5 @@
 ---
-permalink: /ordering-guide
+permalink: /ordering-guide/
 layout: default
 title: Ordering Guide for the Agile Delivery Services BPA
 ---
