@@ -29,11 +29,24 @@ title: Introduction and updates
         <p>{{order.description}}</p>
         </dd>
         {% endif %}
+        {% if order.award_data %}
+
+        <dt class="solicitation-description">Award information</dt>
+        <dd class="solicitation-description">
+          <p>Vendor: {{order.award_data.vendor}}</p>
+          <p>Amount: {{order.award_data.amount}}</p>
+          <p>Number of Bidders: {{order.award_data.bidders}}</p>
+          <p>Median: {{order.award_data.median}}</p>
+          <p>Mean: {{order.award_data.mean}}</p>
+          <p>Standard Deviation: {{order.award_data.stdev}}</p>
+          <p>Award Date: <time datetime="{{order.award_data.date}}}">{{order.award_data.date | date: "%B %d, %Y" }}</time></p>
+        </dd>
+        {% endif %}
+
         {% if order.repository %}
         <dt class="solicitation-repository">Repository</dt>
-        <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p>
+        <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p></dd>
         {% endif %}
-        </dd>
       </dl>
     </li>
   {% endfor %}
