@@ -22,7 +22,8 @@
   rfq_id: 1109584
   title: Identity Management Scrum Team
   solicitation_date: 2016-07-08
-  period_of_performance: TBD
+  period_of_performance: |
+    Base period of 3 months, with 3 additional 3-month option periods, and a contingency period of up to 6 months.
   repository: "https://github.com/18F/bpa-identity-management"
   description: |
     Consumer Identity Management is a problem the Government has tried to solve in a number of ways over the past decade. 18F and a team across the government is now tasked with launching a new solution by November 2016. Our efforts are clearly described on our blog and further detailed in Executive Order 13681.
