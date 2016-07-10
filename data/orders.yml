@@ -47,3 +47,14 @@
   repository: null
   date_posted: 2016-05-14
   date_updated: 2016-07-08
+- requesting_agency: Office of Personnel Management
+  office: Federal Investigative Services (FIS)
+  rfq_id: null
+  title: e-QIP Refresh Prototyping
+  solicitation_date: (2016-07)
+  period_of_performance: TBD
+  repository: null
+  descriptin:  |
+    A prototype design and development project to refresh the Electronic Questionnaires for Investigations Processing (e-QIP) system.
+  date_posted: 2016-07-10
+  date_updated: 2016-07-10
