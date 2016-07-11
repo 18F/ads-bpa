@@ -40,13 +40,13 @@
   date_updated: 2016-05-14
 - requesting_agency: Department of Labor
   office: Wage and Hour Division
-  rfq_id: null
+  rfq_id: 1110470
   title: 14(c) Development
   solicitation_date: (2016-07)
-  period_of_performance: TBD
-  repository: null
+  period_of_performance: 60 days
+  repository: https://github.com/18F/bpa-DOL-WHD-14-c-
   date_posted: 2016-05-14
-  date_updated: 2016-07-08
+  date_updated: 2016-07-11
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
   rfq_id: null
