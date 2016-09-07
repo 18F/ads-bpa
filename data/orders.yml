@@ -53,12 +53,13 @@
   date_updated: 2016-05-14
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
-  rfq_id: null
+  rfq_id: 1138886 
   title: e-QIP Refresh Prototyping
-  solicitation_date: (2016-07)
-  period_of_performance: TBD
-  repository: null
+  solicitation_date: 2016-09-06
+  period_of_performance: |
+    Base period of 3 months, with 5 additional 3-month option periods, and a contingency period of up to 6 months.
+  repository: "https://github.com/18F/bpa-opm-eqip"
   description:  |
     A prototype design and development project to refresh the Electronic Questionnaires for Investigations Processing (e-QIP) system.
   date_posted: 2016-07-10
-  date_updated: 2016-07-10
+  date_updated: 2016-09-06
