@@ -19,7 +19,7 @@ title: Introduction and updates
         <dd class="solicitation-agency">{{order.requesting_agency}}</dd>
         <dt class="solicitation-office">Office</dt>
         <dd class="solicitation-office">{{order.office}}</dd>
-        <dt class="solicitation-date">Anticipated solicitation date</dt>
+        <dt class="solicitation-date">Solicitation date (or anticipated date)</dt>
         <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date | date: "%B %d, %Y" }}</time></dd>
         <dt class="solicitation-period-of-performance">Period of performance</dt>
         <dd class="solicitation-period-of-performance">{{order.period_of_performance}}</dd>
@@ -44,7 +44,7 @@ title: Introduction and updates
         {% endif %}
 
         {% if order.repository %}
-        <dt class="solicitation-repository">Repository</dt>
+        <dt class="solicitation-repository">Solicitation Repository</dt>
         <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p></dd>
         {% endif %}
       </dl>
