@@ -27,8 +27,16 @@
   repository: "https://github.com/18F/bpa-identity-management"
   description: |
     Consumer Identity Management is a problem the Government has tried to solve in a number of ways over the past decade. 18F and a team across the government is now tasked with launching a new solution by November 2016. Our efforts are clearly described on our blog and further detailed in Executive Order 13681.
+  award_data:
+    vendor: Agileana
+    amount: "$313,910.40 for base, $1,261,911.60 total"
+    bidders: 1
+    mean: "$1,261,911.60"
+    median: "$1,261,911.60"
+    stdev: "N/A"
+    date: 2016-09-09
   date_posted: 2016-05-14
-  date_updated: 2016-07-08
+  date_updated: 2016-09-09
 - requesting_agency: Department of Labor
   office: Wage and Hour Division
   rfq_id: 1110470
