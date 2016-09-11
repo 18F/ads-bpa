@@ -58,7 +58,7 @@ title: Introduction and updates
     <h1>Get updates</h1>
     <ul>
       <li><a href="https://18f.gsa.gov/tags/agile-bpa/">Read 18F blog posts about the Agile BPA</a></li>
-      <li><a href="https://eepurl.com/bJQHFr">Subscribe to the 18F acquisition news email list</a></li>
+      <li><a href="http://eepurl.com/bJQHFr">Subscribe to the 18F acquisition news email list</a></li>
     </ul>
   </div>  
 </aside>
