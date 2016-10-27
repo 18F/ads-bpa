@@ -65,11 +65,11 @@
   office: Office of Land and Emergency Management
   rfq_id: null
   title: e-Manifest
-  solicitation_date: (2016-05)
+  solicitation_date: (2017-05)
   period_of_performance: TBD
   repository: null
   date_posted: 2016-05-14
-  date_updated: 2016-05-14
+  date_updated: 2017-10-27
   state: planning
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
@@ -103,6 +103,18 @@
   solicitation_date: (2016-11)
   period_of_performance: TBD
   repository: null
+  description: null
   date_posted: 2016-09-28
   date_updated: 2016-09-28
+  state: planning
+- requesting_agency: Department of Agriculture
+  office: Forest Service
+  rfq_id: null
+  title: Forest Service e-Permitting
+  solicitation_date: (2016-11)
+  period_of_performance: TBD
+  repository: null
+  description: null
+  date_posted: 2016-10-27
+  date_updated: 2016-10-27
   state: planning
