@@ -84,3 +84,25 @@
   date_posted: 2016-07-10
   date_updated: 2016-09-06
   state: posted
+- requesting_agency: U.S. Department of Housing and Urban Development
+  office: Office of Land and Emergency Management
+  rfq_id: null
+  title: Disaster Data Recovery Portal (pilot project)
+  solicitation_date: (2016-11)
+  period_of_performance: TBD
+  repository: null
+  description: |
+    The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
+  date_posted: 2016-09-28
+  date_updated: 2016-09-28
+  state: planning
+- requesting_agency: U.S. Department of State
+  office: Bureau of Human Resources Executive Office
+  rfq_id: null
+  title: Foreign Service Talent Management System (TalentMAP)
+  solicitation_date: (2016-11)
+  period_of_performance: TBD
+  repository: null
+  date_posted: 2016-09-28
+  date_updated: 2016-09-28
+  state: planning
