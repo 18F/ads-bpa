@@ -6,13 +6,17 @@ title: Introduction and updates
 
 <section class="solicitations">
   <h1>Posted for Bid</h1>
+  {% if site.data.orders.size > 0 %}
   <ol class="solicitations posted">
-  {% for order in site.data.orders %}
-    {% if order.state == "posted" %}
-      {% include solicitation.html %}
-    {% endif %}
-  {% endfor %}
+    {% for order in site.data.orders %}
+      {% if order.state == "posted" %}
+        {% include solicitation.html %}
+      {% endif %}
+    {% endfor %}
   </ol>
+   {% else %}
+    <p>There are no active solications opened for bid. We're working on some great projects below so watch out for them. In the meantime, you might also be interested in bidding on some open-source auctions over at the [18F Micro-purchase Platform](https://micropurchase.18f.gov)!</p>
+  {% endif %}
   <h1>Awarded</h1>
   <ol class="solicitations awarded">
   {% for order in site.data.orders %}
