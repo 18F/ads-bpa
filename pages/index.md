@@ -6,7 +6,9 @@ title: Introduction and updates
 
 <section class="solicitations">
   <h1>Posted for Bid</h1>
-  {% if site.data.orders.size > 0 %}
+  {% assign open = site.data.orders | where:"state","posted"%}
+  {% assign planning = site.data.orders | where:"state","planning"%}
+  {% if open.size > 0 %}
   <ol class="solicitations posted">
     {% for order in site.data.orders %}
       {% if order.state == "posted" %}
@@ -15,7 +17,9 @@ title: Introduction and updates
     {% endfor %}
   </ol>
    {% else %}
-    <p>There are no active solicitations opened for bid. We're working on some great projects below so watch out for them. In the meantime, you might also be interested in bidding on some open-source auctions over at the [18F Micro-purchase Platform](https://micropurchase.18f.gov)!</p>
+    <p>There are no active solicitations opened for task orders right now. But we're busily working on {{planning.size}} great projects below, so watch out for them.</p>
+    <br>
+    <p>In the meantime, you might also be interested in bidding on some open-source auctions over at the <a href="https://micropurchase.18f.gov">18F Micro-purchase Platform</a>!</p>
   {% endif %}
   <h1>Awarded</h1>
   <ol class="solicitations awarded">
