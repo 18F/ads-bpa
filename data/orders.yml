@@ -82,8 +82,16 @@
   description:  |
     A prototype design and development project to refresh the Electronic Questionnaires for Investigations Processing (e-QIP) system.
   date_posted: 2016-07-10
-  date_updated: 2016-09-06
-  state: posted
+  date_updated: 2016-11-04
+  state: awarded
+  award_data:
+    vendor: TrueTandem
+    amount: "$1,478,179.20"
+    bidders: 9
+    mean: "$1,881,777.00"
+    median: "$1,939,185.94" 
+    stdev: "$461,492.36"
+    date: 2016-11-03
 - requesting_agency: U.S. Department of Housing and Urban Development
   office: Office of Land and Emergency Management
   rfq_id: null
