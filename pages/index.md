@@ -15,7 +15,7 @@ title: Introduction and updates
     {% endfor %}
   </ol>
    {% else %}
-    <p>There are no active solications opened for bid. We're working on some great projects below so watch out for them. In the meantime, you might also be interested in bidding on some open-source auctions over at the [18F Micro-purchase Platform](https://micropurchase.18f.gov)!</p>
+    <p>There are no active solicitations opened for bid. We're working on some great projects below so watch out for them. In the meantime, you might also be interested in bidding on some open-source auctions over at the [18F Micro-purchase Platform](https://micropurchase.18f.gov)!</p>
   {% endif %}
   <h1>Awarded</h1>
   <ol class="solicitations awarded">
