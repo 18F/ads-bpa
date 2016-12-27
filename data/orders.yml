@@ -120,9 +120,9 @@
   rfq_id: 1160564
   title: Forest Service e-Permitting
   solicitation_date: 2016-12-21
-  period_of_performance: Likely Jan-Feb 2017
+  period_of_performance: NTE 4 months
   repository: https://github.com/18F/bpa-fs-epermit-api
   description: An application protocol interface (API) for the U.S. Forest Service ePermits special use permits.
   date_posted: 2016-10-27
   date_updated: 2016-12-27
-  state: solicitation open
+  state: posted
