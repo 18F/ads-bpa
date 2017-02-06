@@ -93,16 +93,16 @@
     stdev: "$461,492.36"
     date: 2016-11-03
 - requesting_agency: U.S. Department of Housing and Urban Development
-  office: Office of Land and Emergency Management
+  office: Office of Policy Development and Research
   rfq_id: null
   title: Disaster Data Recovery Portal (pilot project)
-  solicitation_date: (2016-11)
-  period_of_performance: TBD
+  solicitation_date: (2017-02)
+  period_of_performance: NTE 4 months
   repository: null
   description: |
     The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
   date_posted: 2016-09-28
-  date_updated: 2016-09-28
+  date_updated: 2017-02-06
   state: planning
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
