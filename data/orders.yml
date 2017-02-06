@@ -124,16 +124,16 @@
   repository: https://github.com/18F/bpa-fs-epermit-api
   description: An application protocol interface (API) for the U.S. Forest Service ePermits special use permits.
   date_posted: 2016-10-27
-  date_updated: 2016-12-27
-  state: posted
-   award_data:
+  date_updated: 2017-02-06
+  state: awarded
+  award_data:
     vendor: NCI Information Systems
     amount: "$213,688.13"
     bidders: "7"
     mean: "$254,664.35"
     median: "$247,725.36"
-    stdev: "$74202.88"
-    date: 2016-06-06
+    stdev: "$74,202.88"
+    date: 2017-02-02
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: null
