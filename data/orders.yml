@@ -126,6 +126,14 @@
   date_posted: 2016-10-27
   date_updated: 2016-12-27
   state: posted
+   award_data:
+    vendor: NCI Information Systems
+    amount: "$213,688.13"
+    bidders: "7"
+    mean: "$254,664.35"
+    median: "$247,725.36"
+    stdev: "$74202.88"
+    date: 2016-06-06
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: null
