@@ -94,16 +94,16 @@
     date: 2016-11-03
 - requesting_agency: U.S. Department of Housing and Urban Development
   office: Office of Policy Development and Research
-  rfq_id: null
+  rfq_id: 1168769
   title: Disaster Data Recovery Portal (pilot project)
-  solicitation_date: (2017-02)
+  solicitation_date: 2017-02-07 to 2017-02-21
   period_of_performance: NTE 4 months
-  repository: null
+  repository: https://github.com/18F/bpa-disaster-data-portal-pilot
   description: |
     The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
   date_posted: 2016-09-28
-  date_updated: 2017-02-06
-  state: planning
+  date_updated: 2017-02-07
+  state: posted
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
   rfq_id: null
