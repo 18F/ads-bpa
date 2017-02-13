@@ -106,15 +106,16 @@
   state: posted
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
-  rfq_id: null
+  rfq_id: 1169875
   title: Foreign Service Talent Management System (TalentMAP)
-  solicitation_date: (2016-11)
-  period_of_performance: TBD
-  repository: null
-  description: null
-  date_posted: 2016-09-28
-  date_updated: 2016-09-28
-  state: planning
+  solicitation_date: (2017-02)
+  period_of_performance: 12 months (base year)
+  repository: https://github.com/18F/bpa-DOS-TalentMAP
+  description:   |
+    TalentMAP is anticipated to replace the Foreign Service Bidding (FSBid) application and serve as a unified source of information (currently stored outside of FSBID) regarding available Foreign Service positions and post data for Foreign Service employees.
+  date_posted: 2017-02-10
+  date_updated: 2016-02-11
+  state: posted
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: 1160564
