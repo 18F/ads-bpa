@@ -4,7 +4,7 @@
   title: Public Beta Dashboard
   solicitation_date: 2016-03-16
   period_of_performance: 60 days
-  repository: 'https://github.com/18F/bpa-fedramp-dashboard'
+  RFP repository: 'https://github.com/18F/bpa-fedramp-dashboard'
   description: |
     The scope of this task order is for the Contractor to deliver the public beta launch of the Federal Risk and Authorization Management Program (FedRAMP) dashboard.
   date_posted: 2016-05-14
@@ -25,7 +25,7 @@
   solicitation_date: 2016-07-08
   period_of_performance: |
     Base period of 3 months, with 3 additional 3-month option periods, and a contingency period of up to 6 months.
-  repository: "https://github.com/18F/bpa-identity-management"
+  RFP repository: "https://github.com/18F/bpa-identity-management"
   description: |
     Consumer Identity Management is a problem the Government has tried to solve in a number of ways over the past decade. 18F and a team across the government is now tasked with launching a new solution by November 2016. Our efforts are clearly described on our blog and further detailed in Executive Order 13681.
   award_data:
@@ -45,7 +45,7 @@
   title: 14(c) Development
   solicitation_date: 2016-07-11
   period_of_performance: 60 days
-  repository: https://github.com/18F/bpa-DOL-WHD-14-c-
+  RFP repository: https://github.com/18F/bpa-DOL-WHD-14-c-
   description: |
     Section 14(c) permits the payment of subminimum wage rates, after receipt of a certificate by DOL, to individuals whose earning or productive capacity is impaired by a disability for the work to be performed. It requires that an individual’s rate of pay be commensurate with the rates paid workers without a disability performing the same type of work in the same vicinity.
 
@@ -67,7 +67,7 @@
   title: e-Manifest
   solicitation_date: (2017-05)
   period_of_performance: TBD
-  repository: null
+  RFP repository: null
   date_posted: 2016-05-14
   date_updated: 2017-10-27
   state: planning
