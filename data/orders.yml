@@ -140,12 +140,12 @@
   rfq_id: null
   title: Forest Service e-Permitting Intake Module
   solicitation_date: (2017-02)
-  period_of_performance: TBD
-  repository: null
-  description: null
+  period_of_performance: 3 month base period, one 3 month option
+  repository: https://github.com/18F/bpa-fs-epermit-intake
+  description: The U.S. Forest Service is engaged in an ongoing effort to modernize and simplify their permitting processes. One facet of this effort is “ePermitting”, or making the applications for many Forest Service permits available online. This application is for a public front-end intake module for use by non-commercial groups, temporary outfitter, and guide permits.
   date_posted: 2017-01-24
-  date_updated: 2017-01-24
-  state: planning
+  date_updated: 2017-02-15
+  state: posted
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: null
