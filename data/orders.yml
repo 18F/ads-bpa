@@ -103,7 +103,15 @@
     The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
   date_posted: 2016-09-28
   date_updated: 2017-02-07
-  state: posted
+  state: awarded
+    award_data:
+    vendor: Flexion Inc
+    amount: "$237,776.22"
+    bidders: "6"
+    mean: "$TBD"
+    median: "$TBD"
+    stdev: "$TBD"
+    date: 2017-04-05
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
   rfq_id: 1169875
@@ -137,7 +145,7 @@
     date: 2017-02-02
 - requesting_agency: Department of Agriculture
   office: Forest Service
-  rfq_id: null
+  rfq_id: 1171039
   title: Forest Service e-Permitting Intake Module
   solicitation_date: (2017-02)
   period_of_performance: 3 month base period, one 3 month option
@@ -145,7 +153,15 @@
   description: The U.S. Forest Service is engaged in an ongoing effort to modernize and simplify their permitting processes. One facet of this effort is “ePermitting”, or making the applications for many Forest Service permits available online. This application is for a public front-end intake module for use by non-commercial groups, temporary outfitter, and guide permits.
   date_posted: 2017-01-24
   date_updated: 2017-02-15
-  state: posted
+  state: awarded
+    award_data:
+    vendor: Flexion Inc.
+    amount: "$157,628.78"
+    bidders: "2"
+    mean: "$TBD"
+    median: "$TBD"
+    stdev: "$TBD"
+    date: 2017-04-05
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: null
