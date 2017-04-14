@@ -105,13 +105,13 @@
   date_updated: 2017-02-07
   state: awarded
     award_data:
-    vendor: Flexion Inc
+    vendor: Flexion, Inc.
     amount: "$237,776.22"
-    bidders: "6"
-    mean: "$TBD"
-    median: "$TBD"
-    stdev: "$TBD"
-    date: 2017-04-05
+    bidders: 6
+    mean: "$273,170.00"
+    median: "$285,098.00" 
+    stdev: "$46,655.90"
+    date: 2017-04-13
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
   rfq_id: 1169875
