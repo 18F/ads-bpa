@@ -1,3 +1,9 @@
+---
+permalink: /roles-and-responsibilities/
+layout: default
+title: Roles and Responsibilities in Agile BPA Task Orders
+---
+
 # Roles and Responsibilities
 
 ## Contracting Officer (NCR):
