@@ -102,8 +102,16 @@
   description: |
     The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
   date_posted: 2016-09-28
-  date_updated: 2017-02-07
-  state: posted
+  date_updated: 2017-04-14
+  state: awarded
+  award_data:
+    vendor: Flexion
+    amount: "$237,776.22"
+    bidders: 6
+    mean: "$273,170.00"
+    median: "$285,098.00" 
+    stdev: "$46,655.90"
+    date: 2017-04-13
 - requesting_agency: U.S. Department of State
   office: Bureau of Human Resources Executive Office
   rfq_id: 1169875
