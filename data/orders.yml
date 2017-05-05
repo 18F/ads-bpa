@@ -116,7 +116,7 @@
   office: Bureau of Human Resources Executive Office
   rfq_id: 1169875
   title: Foreign Service Talent Management System (TalentMAP)
-  solicitation_date: (2017-02)
+  solicitation_date: 2017-02-10
   period_of_performance: 12 months (base year)
   repository: https://github.com/18F/bpa-DOS-TalentMAP
   description:   |
