@@ -123,7 +123,15 @@
     TalentMAP is anticipated to replace the Foreign Service Bidding (FSBid) application and serve as a unified source of information (currently stored outside of FSBID) regarding available Foreign Service positions and post data for Foreign Service employees.
   date_posted: 2017-02-10
   date_updated: 2016-02-11
-  state: posted
+  state: awarded
+  award_data:
+    vendor: Booz Allen Hamilton
+    amount: "$1,178,104.51"
+    bidders: "5"
+    mean: "$D,ddd,DDD.CC"
+    median: "$D,ddd,DDD.CC"
+    stdev: "$DDD,DDD.CC"
+    date: 2017-05-10
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: 1160564
