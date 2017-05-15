@@ -61,16 +61,6 @@
     date: 2016-09-09
   date_updated: 2016-09-09
   state: delivered
-- requesting_agency: Environmental Protection Agency
-  office: Office of Land and Emergency Management
-  rfq_id: null
-  title: e-Manifest
-  solicitation_date: (2017-05)
-  period_of_performance: TBD
-  repository: null
-  date_posted: 2016-05-14
-  date_updated: 2017-10-27
-  state: planning
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
   rfq_id: 1138886
@@ -123,7 +113,15 @@
     TalentMAP is anticipated to replace the Foreign Service Bidding (FSBid) application and serve as a unified source of information (currently stored outside of FSBID) regarding available Foreign Service positions and post data for Foreign Service employees.
   date_posted: 2017-02-10
   date_updated: 2016-02-11
-  state: posted
+  state: awarded
+  award_data:
+    vendor: Booz Allen Hamilton
+    amount: "$1,178,104.51"
+    bidders: "5"
+    mean: "$1,065,545.248"
+    median: "$1,138,011.20"
+    stdev: "$443,953.19"
+    date: 2017-05-10
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: 1160564
@@ -183,4 +181,14 @@
   description: null
   date_posted: 2017-04-14
   date_updated: 2017-04-05
+  state: planning
+- requesting_agency: Environmental Protection Agency
+  office: Office of Land and Emergency Management
+  rfq_id: null
+  title: e-Manifest
+  solicitation_date: (2017-05)
+  period_of_performance: TBD
+  repository: null
+  date_posted: 2016-05-14
+  date_updated: 2017-10-27
   state: planning
