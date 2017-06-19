@@ -58,6 +58,7 @@ title: Introduction and updates
     <ul class="learn-more">
       <li class="learn-more-federal-agency"><a href="buyers/">Federal agency interested in buying services</a></li>
       <li class="learn-more-vendor"><a href="vendors/">Vendor</a></li>
+      <li class="learn-more-code-review"><a href="Code-Review/">Vendor undergoing code review</a></li>
     </ul>
     <h1>Read the Ordering Guide</h1>
     <ul>
