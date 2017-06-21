@@ -11,7 +11,7 @@ In June 2015 [we issued a Request for Quotation (RFQ)](https://pages.18f.gov/ads
 This RFQ required vendors currently on
 [GSA Schedule 70](http://gsa.gov/portal/content/104506) who want to be on the Agile Delivery BPA to compete among three pools: Pool One is a design pool (a total set aside for small business), Pool Two is a development pool (also a total set aside for small business), and Pool Three is a full-stack pool (unrestricted). Vendors will work on 18F projects, for our internal needs, and for our partner agencies.
 
-[Vendors have been awarded for Pool Three, and we're working on Pools One and Two.](https://18f.gsa.gov/2015/12/17/the-agile-bpa-is-ready-to-launch/)
+[Vendors have been awarded for Pool Three, and we have chosen not to award Pools One and Two.](https://18f.gsa.gov/2015/12/17/the-agile-bpa-is-ready-to-launch/)
 
 ## Future beta stage
 
