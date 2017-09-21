@@ -185,7 +185,7 @@
   date_posted: 2017-02-15
   date_updated: 2017-09-21
   state: awarded
-   award_data:
+  award_data:
     vendor: NCI Information Systems
     amount: "$638,266.00"
     bidders: "2"
