@@ -146,7 +146,7 @@
   description: An application protocol interface (API) for the U.S. Forest Service ePermits special use permits.
   date_posted: 2016-10-27
   date_updated: 2017-02-06
-  state: awarded
+  state: delivered
   award_data:
     vendor: NCI Information Systems
     amount: "$213,688.13"
