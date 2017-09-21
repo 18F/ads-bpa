@@ -73,8 +73,16 @@
 
     The 14(c) system will become a modern, digital-first service. Applicants will be provided an intuitive online experience, guiding them through the information needed to complete their application correctly. Applicants will have the ability to save their progress along the way, submit it to the system and see their application status. The application data will be made available to WHD users to inform certification and enforcement decisions. Applicants will have access to previous applications in order to apply for renewal. The product will support policy and process evolution over time, and will support data transparency wherever and however possible.
   date_posted: 2017-06-21
-  date_updated: 2017-06-21
-  state: posted
+  date_updated: 2017-09-21
+  award_data:
+    vendor: Applied Information Systems
+    amount: "$297,757.44"
+    bidders: 5
+    mean: "$301,786.96"
+    median: "$327,481.20"
+    stdev: "$73,719.10"
+    date: 2016-08-29
+  state: awarded
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
   rfq_id: 1138886
