@@ -176,15 +176,23 @@
     date: 2017-04-05
 - requesting_agency: Department of Agriculture
   office: Forest Service
-  rfq_id: null
+  rfq_id: ID11170033
   title: Forest Service e-Permitting Christmas Trees Module
   solicitation_date: (2017-06)
-  period_of_performance: TBD
-  repository: null
-  description: null
+  period_of_performance: 6 month base period, one 3 month option
+  repository: https://github.com/18F/bpa-fs-xmas-trees
+  description: The objective of this task order is to develop an online permitting module focused on Christmas tree sales. Every winter, many national forests sell “tags” for Christmas tree cutting (“tag” is the term for a Christmas-tree-specific permit). After purchasing a tag, members of the public can travel to parts of nearby national forests to cut down a tree from a designated area.
   date_posted: 2017-02-15
-  date_updated: 2017-06-21
-  state: planning
+  date_updated: 2017-09-21
+  state: awarded
+  award_data:
+    vendor: NCI Information Systems
+    amount: "$638,266.00"
+    bidders: "2"
+    mean: "$481,527.12"
+    median: "$481,527.12"
+    stdev: "$221,662.41"
+    date: 2017-09-21
 - requesting_agency: Government Publishing Office
   office: N/A
   rfq_id: null
