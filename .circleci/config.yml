@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: npm install js-yaml
-      - test: sh test.sh
+      - run: sh test.sh
