@@ -1,6 +1,0 @@
-language: node_js
-node_js:
-  - "6.9"
-install:
-  - npm install js-yaml
-script: sh test.sh

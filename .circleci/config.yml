@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  test-yaml:
+    docker:
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - run: npm install js-yaml
+      - test: sh test.sh
