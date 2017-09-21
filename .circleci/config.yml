@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  test-yaml:
+  build:
     docker:
       - image: circleci/node:6
     steps:
