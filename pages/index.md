@@ -18,8 +18,6 @@ title: Introduction and updates
   </ol>
    {% else %}
     <p>There are no active solicitations opened for task orders right now. But we're busily working on {{planning.size}} great projects below, so watch out for them.</p>
-    <br>
-    <p>In the meantime, you might also be interested in bidding on some open-source auctions over at the <a href="https://micropurchase.18f.gov">18F Micro-purchase Platform</a>!</p>
   {% endif %}
   <h1>Awarded</h1>
   <ol class="solicitations awarded">
