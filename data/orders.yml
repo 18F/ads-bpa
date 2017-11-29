@@ -38,7 +38,7 @@
     date: 2016-09-09
   date_posted: 2016-05-14
   date_updated: 2016-09-09
-  state: awarded
+  state: closed out
 - requesting_agency: Department of Labor
   office: Wage and Hour Division
   rfq_id: 1110470
@@ -173,7 +173,7 @@
   description: The U.S. Forest Service is engaged in an ongoing effort to modernize and simplify their permitting processes. One facet of this effort is “ePermitting”, or making the applications for many Forest Service permits available online. This application is for a public front-end intake module for use by non-commercial groups, temporary outfitter, and guide permits.
   date_posted: 2017-01-24
   date_updated: 2017-02-15
-  state: awarded
+  state: delivered
   award_data:
     vendor: Flexion Inc.
     amount: "$157,628.78"
@@ -211,7 +211,7 @@
   description: null
   date_posted: 2017-04-14
   date_updated: 2017-06-21
-  state: planning
+  state: closed out
 - requesting_agency: Environmental Protection Agency
   office: Office of Land and Emergency Management
   rfq_id: null
@@ -221,12 +221,12 @@
   repository: null
   date_posted: 2016-05-14
   date_updated: 2017-6-21
-  state: planning
+  state: closed out
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: null
   title: Forest Service e-Permitting buy #4
-  solicitation_date: (2018-01)
+  solicitation_date: (2018-04)
   period_of_performance: TBD
   repository: null
   date_posted: 2017-09-21
