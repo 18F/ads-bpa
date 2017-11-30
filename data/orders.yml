@@ -201,17 +201,6 @@
     median: "$481,527.12"
     stdev: "$221,662.41"
     date: 2017-09-21
-- requesting_agency: Government Publishing Office
-  office: N/A
-  rfq_id: null
-  title: GPO Printing Procurement System
-  solicitation_date: (2017-07)
-  period_of_performance: TBD
-  repository: null
-  description: null
-  date_posted: 2017-04-14
-  date_updated: 2017-06-21
-  state: planning
 - requesting_agency: Environmental Protection Agency
   office: Office of Land and Emergency Management
   rfq_id: null
