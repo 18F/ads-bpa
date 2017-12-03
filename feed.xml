@@ -1,7 +1,7 @@
 ---
 
 ---
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
   <link href="https://pages.18f.gov/ads-bpa/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://pages.18f.gov/ads-bpa/" rel="alternate" type="text/html"/>
   <updated>{{site.time | date_to_xmlschema }}</updated>
