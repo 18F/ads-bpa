@@ -35,6 +35,13 @@ repos:
 - name: Agile Delivery Services BPA Guide
   description: Main repository
 
+page_gen:
+  - data: orders
+    template: badges
+    name: title
+    dir: badges
+    extension: svg
+
 google_analytics_ua: UA-48605964-19
 
 # Data Source
