@@ -100,17 +100,11 @@ module Jekyll
   module DataPageLinkGenerator
     include Sanitizer
 
-    # use it like this: {{input | datapage_url: dir}}
+    # use it like this: {{input | datapage_url}}
     # to generate a link to a data_page.
     #
-    # the filter is smart enough to generate different link styles
-    # according to the data_page-dirs directive ...
-    #
-    # ... however, the filter is not smart enough to support different
-    # extensions for filenames.
-    #
-    # Thus, if you use the `extension` feature of this plugin, you
-    # need to generate the links by hand
+    # Simplified from the original version to meet
+    # our more limited needs.
     def datapage_url(input)
       "#{sanitize_filename(input)}"
     end
