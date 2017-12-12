@@ -35,7 +35,7 @@
 
     {% if order.repository %}
     <dt class="solicitation-repository">Solicitation Repository</dt>
-    <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p></dd>
+    <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a> | <img src="badges/{{order.title | datapage_url}}.svg"></p></dd>
     {% endif %}
   </dl>
 </li>
