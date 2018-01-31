@@ -4,15 +4,15 @@ layout: default
 title: Task orders on the BPA
 ---
 
-{% assign sortedorders = (site.data.orders | sort: "solicitation_date") | reverse %}
-<h2>Overview</h2>
+{% assign sortedorders = site.data.orders | sort: "solicitation_date" | reverse %}
+<h2 id='top-h2'>Overview</h2>
 <ul>
 {% for order in sortedorders %}
 <li>
     {% if order.repository %}
-    <a href="{{order.repository}}">{{ order.title }}</a><br/>
+    <a href="{{order.repository}}">{{ order.title }}</a> <a href='#{{ order.title | replace: ' ', '-'}}'>Order Info</a><br/>
     {% else %}
-    {{ order.title }} (Solicitation documents pending))
+    {{ order.title }} <a href='#{{ order.title | replace: ' ', '-'}}'>Order Info</a><br/>
     {% endif %}
 </li>
 {% endfor %}

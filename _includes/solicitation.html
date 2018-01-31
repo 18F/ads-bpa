@@ -1,5 +1,5 @@
 
-<li>
+<li id="{{ order.title | replace: ' ', '-'}}">
   <small>ID: **{% if order.rfq_id %}#{{order.rfq_id}}{%else%}TBD{% endif %}**</small>
 
   <h3 class='order-title'>{{order.title}}</h3>
@@ -33,4 +33,5 @@
   <li>Award Date: <time datetime="{{order.award_data.date}}}">{{order.award_data.date | date: "%B %d, %Y" }}</time></li>
   </ul>
   {% endif %}
+  <a href="#top-h2">Return to top</a>
 </li>

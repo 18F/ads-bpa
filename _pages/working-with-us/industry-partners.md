@@ -1,5 +1,4 @@
 ---
-permalink: /industry-partners/
 layout: default
 title: Information for vendors
 ---

@@ -1,5 +1,4 @@
 ---
-permalink: /agency-partners/
 layout: default
 title: Information for agency partners
 ---

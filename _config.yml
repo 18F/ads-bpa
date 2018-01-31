@@ -36,6 +36,8 @@ navigation:
 - text: Overview
   internal: true
 - text: Working with us
+  url: working-with-us/
+  internal: true
   children:
   - text: For agency partners
     url: agency-partners/
@@ -43,8 +45,8 @@ navigation:
   - text: For industry partners
     url: industry-partners/
     internal: true
-  - text: How our post award teams work
-    url: roles-and-responsibilities/
+  - text: Post-award teams
+    url: our-project-team/
     internal: true
 - text: Orders
   url: orders/
@@ -61,6 +63,8 @@ navigation:
 
 # Data Source
 data_dir: data
+
+scripts: 
 
 repos:
 - name: Agile BPA Solicitation Documents

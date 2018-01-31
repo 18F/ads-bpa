@@ -1,7 +1,7 @@
 ---
 permalink: /pool-three-awardees/
 layout: default
-title: Full-stack pool awardees
+title: Full-stack pool 3 awardees
 ---
 
 {% for vendor in site.data.vendors.vendors %}
