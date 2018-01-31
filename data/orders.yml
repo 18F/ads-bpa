@@ -1,7 +1,7 @@
 - requesting_agency: General Services Administration
   office: FedRAMP
   rfq_id: ID09160019
-  title: Public Beta Dashboard
+  title: Authorizations Marketplace Dashboard
   solicitation_date: 2016-03-16
   period_of_performance: 60 days
   repository: 'https://github.com/18F/bpa-fedramp-dashboard'
@@ -147,7 +147,7 @@
 - requesting_agency: Department of Agriculture
   office: Forest Service
   rfq_id: 1160564
-  title: Forest Service e-Permitting
+  title: Forest Service e-Permitting API
   solicitation_date: 2016-12-21
   period_of_performance: NTE 4 months
   repository: https://github.com/18F/bpa-fs-epermit-api

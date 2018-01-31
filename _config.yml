@@ -64,7 +64,7 @@ data_dir: data
 
 repos:
 - name: Agile BPA Solicitation Documents
-  description: All the agile bpa soliciation documents
+  description: All the agile bpa soliciation
   url: https://github.com/18F/guides-template
 
 back_link:

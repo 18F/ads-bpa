@@ -3,7 +3,22 @@ permalink: /orders/
 layout: default
 title: Task orders on the BPA
 ---
-  {% assign sortedorders = (site.data.orders | sort: 'solicitation_date') | reverse %}
+
+{% assign sortedorders = (site.data.orders | sort: "solicitation_date") | reverse %}
+<h2>Overview</h2>
+<ul>
+{% for order in sortedorders %}
+<li>
+    {% if order.repository %}
+    <a href="{{order.repository}}">{{ order.title }}</a><br/>
+    {% else %}
+    {{ order.title }} (Solicitation documents pending))
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
+
+
   {% assign open = site.data.orders | where:"state","posted"%}
   {% assign planning = site.data.orders | where:"state","planning"%}
   {% if open.size > 0 %}
