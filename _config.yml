@@ -64,7 +64,7 @@ navigation:
 # Data Source
 data_dir: data
 
-scripts: 
+scripts: assets/css/styles.scss
 
 repos:
 - name: Agile BPA Solicitation Documents

@@ -6,7 +6,7 @@ We work with federal agencies to reduce the risk of software procurement while e
 
 We're involved through the entire procurement process and our team can helps agencies shift from traditional waterfall development to agile methods, reducing risk, production time, and improving the user experience. One of the tools we offer is is the Agile BPA. The Agile BPA is a contracting vehicle that provides TTS with access to a pool of 17 pre-vetted vendors from GSA’s IT Schedule 70.
 
-[See what we're building and future orders](/orders)!
+[See what we're building with the Agile BPA and upcoming orders](/orders)!
 
 
 ## How it works
