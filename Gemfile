@@ -2,5 +2,9 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'redcarpet'
+gem 'rouge'
 gem 'go_script'
-gem 'guides_style_18f', '~> 0.4.9'
+
+group :jekyll_plugins do
+  gem 'guides_style_18f'
+end
