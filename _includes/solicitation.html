@@ -1,19 +1,28 @@
 
-<li id="{{ order.title | replace: ' ', '-'}}">
-  <small>ID: **{% if order.rfq_id %}#{{order.rfq_id}}{%else%}TBD{% endif %}**</small>
+<li id="{{ order.title | replace: ' ', '-'}}" class="order">
+ID: {% if order.rfq_id %} **{{order.rfq_id}}**{%else%}**TBD**{% endif %}
 
   <h3 class='order-title'>{{order.title}}</h3>
 
-  Agency: **{{order.requesting_agency}}**
-
-  Office: **{{order.office}}**
+  **{{order.requesting_agency}}** **>** **{{order.office}}**
 
   {%if order.state == "planning" %}Anticipated s{% else %}S{% endif %}olicitation date:  <time datetime="{{order.solicitation_date}}}">**{{order.solicitation_date | date: "%B %d, %Y" }}**</time>
 
-  Period of performance: {{order.period_of_performance}}
-
   {% if order.repository %}
-  **<a href="{{order.repository}}">Solicitation docments hosted on Github</a>**
+  **<a href="{{order.repository}}">Solicitation docments hosted on Github</a>** 
+  {% endif %}
+
+  {%if order.period_of_performance %}
+  <h4>Period of performance:</h4>
+  <ul>
+  {%if order.period_of_performance.base_period %}
+  <li>Base period: {{ order.period_of_performance.base_period}} months</li>
+
+  {%if order.period_of_performance.option_period %}
+  <li>Option period(s): {{ order.period_of_performance.option_period}}</li>
+  {% endif %}
+  {% endif %}
+  </ul>
   {% endif %}
 
   {% if order.description %}

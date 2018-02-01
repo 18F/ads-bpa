@@ -3,7 +3,8 @@
   rfq_id: ID09160019
   title: Authorizations Marketplace Dashboard
   solicitation_date: 2016-03-16
-  period_of_performance: 60 days
+  period_of_performance:
+    base_period: 2
   repository: 'https://github.com/18F/bpa-fedramp-dashboard'
   description: |
     The scope of this task order is for the Contractor to deliver the public beta launch of the Federal Risk and Authorization Management Program (FedRAMP) dashboard.
@@ -23,8 +24,9 @@
   rfq_id: 1109584
   title: Identity Management Scrum Team
   solicitation_date: 2016-07-08
-  period_of_performance: |
-    Base period of 3 months, with 3 additional 3-month option periods, and a contingency period of up to 6 months.
+  period_of_performance:
+    base_period: 3
+    option_period: 3 additional 3-month option periods, and a contingency period of up to 6 months.
   repository: "https://github.com/18F/bpa-identity-management"
   description: |
     Consumer Identity Management is a problem the Government has tried to solve in a number of ways over the past decade. 18F and a team across the government is now tasked with launching a new solution by November 2016. Our efforts are clearly described on our blog and further detailed in Executive Order 13681.
@@ -44,7 +46,8 @@
   rfq_id: 1110470
   title: 14(c) Development
   solicitation_date: 2016-07-11
-  period_of_performance: 60 days
+  period_of_performance:
+    base_period: 2
   repository: https://github.com/18F/bpa-DOL-WHD-14-c-
   description: |
     Section 14(c) permits the payment of subminimum wage rates, after receipt of a certificate by DOL, to individuals whose earning or productive capacity is impaired by a disability for the work to be performed. It requires that an individual’s rate of pay be commensurate with the rates paid workers without a disability performing the same type of work in the same vicinity.
@@ -66,7 +69,8 @@
   rfq_id: 1204822
   title: 14(c) Web Application Tool
   solicitation_date: 2017-06-21
-  period_of_performance: 4 months
+  period_of_performance:
+    base_period: 4
   repository: https://github.com/18F/bpa-DOL-WHD-14-c-
   description: |
     Section 14(c) permits the payment of subminimum wage rates, after receipt of a certificate by DOL, to individuals whose earning or productive capacity is impaired by a disability for the work to be performed. It requires that an individual’s rate of pay be commensurate with the rates paid workers without a disability performing the same type of work in the same vicinity.
@@ -88,8 +92,9 @@
   rfq_id: 1138886
   title: e-QIP Refresh Prototyping
   solicitation_date: 2016-09-06
-  period_of_performance: |
-    Base period of 3 months, with 5 additional 3-month option periods, and a contingency period of up to 6 months.
+  period_of_performance:
+    base_period: 3
+    option_period: 5 additional 3-month option periods, and a contingency period of up to 6 months.
   repository: "https://github.com/18F/bpa-opm-eqip"
   description:  |
     A prototype design and development project to refresh the Electronic Questionnaires for Investigations Processing (e-QIP) system.
@@ -109,7 +114,8 @@
   rfq_id: 1168769
   title: Disaster Data Recovery Portal (pilot project)
   solicitation_date: 2017-02-07
-  period_of_performance: NTE 4 months
+  period_of_performance:
+    base_period: 4
   repository: https://github.com/18F/bpa-disaster-data-portal-pilot
   description: |
     The scope of this task is to build a working pilot of a portal that collects and displays Community Development Block Grant – Disaster Recovery (CDBG-DR) data.
@@ -129,7 +135,8 @@
   rfq_id: 1169875
   title: Foreign Service Talent Management System (TalentMAP)
   solicitation_date: 2017-02-10
-  period_of_performance: 12 months (base year)
+  period_of_performance:
+    base_period: 12
   repository: https://github.com/18F/bpa-DOS-TalentMAP
   description:   |
     TalentMAP is anticipated to replace the Foreign Service Bidding (FSBid) application and serve as a unified source of information (currently stored outside of FSBID) regarding available Foreign Service positions and post data for Foreign Service employees.
@@ -149,7 +156,8 @@
   rfq_id: 1160564
   title: Forest Service e-Permitting API
   solicitation_date: 2016-12-21
-  period_of_performance: NTE 4 months
+  period_of_performance:
+    base_period: 4
   repository: https://github.com/18F/bpa-fs-epermit-api
   description: An application protocol interface (API) for the U.S. Forest Service ePermits special use permits.
   date_posted: 2016-10-27
@@ -168,7 +176,9 @@
   rfq_id: 1171039
   title: Forest Service e-Permitting Intake Module
   solicitation_date: 2017-02-15
-  period_of_performance: 3 month base period, one 3 month option
+  period_of_performance:
+    base_period: 3
+    option_period: One additional 3 month option
   repository: https://github.com/18F/bpa-fs-epermit-intake
   description: The U.S. Forest Service is engaged in an ongoing effort to modernize and simplify their permitting processes. One facet of this effort is “ePermitting”, or making the applications for many Forest Service permits available online. This application is for a public front-end intake module for use by non-commercial groups, temporary outfitter, and guide permits.
   date_posted: 2017-01-24
@@ -187,7 +197,9 @@
   rfq_id: ID11170033
   title: Forest Service e-Permitting Christmas Trees Module
   solicitation_date: 2017-07-29
-  period_of_performance: 6 month base period, one 3 month option
+  period_of_performance:
+    base_period: 6
+    option_period: One 3 month option
   repository: https://github.com/18F/bpa-fs-xmas-trees
   description: The objective of this task order is to develop an online permitting module focused on Christmas tree sales. Every winter, many national forests sell “tags” for Christmas tree cutting (“tag” is the term for a Christmas-tree-specific permit). After purchasing a tag, members of the public can travel to parts of nearby national forests to cut down a tree from a designated area.
   date_posted: 2017-02-15
@@ -206,7 +218,6 @@
   rfq_id: null
   title: Forest Service e-Permitting
   solicitation_date: 2018-04-15
-  period_of_performance: TBD
   repository: null
   date_posted: 2017-09-21
   date_updated: 2017-09-21
