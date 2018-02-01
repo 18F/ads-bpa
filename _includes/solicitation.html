@@ -1,17 +1,18 @@
 
 <li id="{{ order.title | replace: ' ', '-'}}" class="order">
-ID: {% if order.rfq_id %} **{{order.rfq_id}}**{%else%}**TBD**{% endif %}
 
   <h3 class='order-title'>{{order.title}}</h3>
 
   **{{order.requesting_agency}}** **>** **{{order.office}}**
 
-  {%if order.state == "planning" %}Anticipated s{% else %}S{% endif %}olicitation date:  <time datetime="{{order.solicitation_date}}}">**{{order.solicitation_date | date: "%B %d, %Y" }}**</time>
+  <h4>Solicitation {% if order.rfq_id %} **#{{order.rfq_id}}**{% endif %}</h4>
+  <ul>
+  <li>{%if order.state == "planning" %}Anticipated r{% else %}R{% endif %}elease date:  <time datetime="{{order.solicitation_date}}}">**{{order.solicitation_date | date: "%B %d, %Y" }}**</time></li>
 
   {% if order.repository %}
-  **<a href="{{order.repository}}">Solicitation docments hosted on Github</a>** 
+  <li><a href="{{order.repository}}">RFQ (hosted on Github)</a></li>
   {% endif %}
-
+  </ul>
   {%if order.period_of_performance %}
   <h4>Period of performance:</h4>
   <ul>
