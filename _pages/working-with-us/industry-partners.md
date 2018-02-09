@@ -5,7 +5,7 @@ title: Information for vendors
 
 [We awarded for the full-stack vendor pool](https://18f.gsa.gov/2015/12/17/the-agile-bpa-is-ready-to-launch/), and we have chosen not to award the design and development pool.
 
-We work a bit differently than most governement software development projects. Learn more [how we work with vendors on Agile BPA task orders](https://18f.gsa.gov/2017/08/30/what-makes-a-great-vendor-team/).
+We work a bit differently than most government software development projects. Learn more [how we work with vendors on Agile BPA task orders](https://18f.gsa.gov/2017/08/30/what-makes-a-great-vendor-team/).
 
 ## Future iterations
 
@@ -20,7 +20,7 @@ This RFQ required vendors currently on
 
 We asked vendors for a demonstration of their software development capabilities as part of the proposal evaluation. Doing it this way not only helps yield high-quality vendors, but also reduces how much "bid & proposal" expense companies have to incur. This requires very little, if any, in the way of written responses, unlike the typical case.
 
-We awarded a BPA under GSA IT Schedule 70. The BPA was competed among existing vendors on Schedule 70 and orders made by 18F on behalf of their partner agencies.
+We awarded a BPA under GSA IT Schedule 70. The BPA was competed among existing vendors on Schedule 70 and orders made by 18F on behalf of their partner agencies. We only awarded the full-stack pool, and not the development or design pools.
 
 ## Small business friendly
 
