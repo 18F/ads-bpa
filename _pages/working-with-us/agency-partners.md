@@ -18,12 +18,15 @@ After your initial intake discussions with 18F, there will be a few main steps f
 1. Execute an Interagency Agreement (IAA) between your agency and 18F.
 2. 18F will conduct a project acquisition workshop.
 3. 18F will acquire one or more Agile BPA vendors.
-4. 18F will lead a project inception workshop with the agency and the vendor(s).
-5. 18F will manage the vendor's post-award delivery of the product.
+4. 18F will work with a point of contact from your agency to collaboratively manage the vendor's post-award delivery of the product.
 
 ### Smaller contracts
 
 An important difference between the Agile BPA and most other traditional IT services contract vehicles is that we make the procurements themselves reflect agile development. We plan to issue task orders — consistent with the [TechFAR](https://playbook.cio.gov/techfar/) — that feature shorter time-frames, smaller dollar amounts, and user-centered design principles. In other words, Agile BPA purchases will tend to be much smaller and more modular than most contracts.
+
+## How 18F hires vendors for the Agile BPA
+
+Through the Agile BPA, 18F hires vendors with [labor categories](https://pages.18f.gov/agile-labor-categories/) ranging from Backend Web Developers to Visual Designers to Content Strategists. We use [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/): the most important thing for us is the ability to develop user-centered and high quailty working software. [More about how we work with vendors.](../vendors/)
 
 ## <a name="vendors"></a>Vendors on the Agile BPA
 
@@ -33,11 +36,6 @@ Full-stack pool three vendors:
 - {{vendor.name}}
 {% endfor %}
 
-## How 18F hires vendors for the Agile BPA
-
-Through the Agile BPA, 18F hires vendors with [labor categories](https://pages.18f.gov/agile-labor-categories/) ranging from Backend Web Developers to Visual Designers to Content Strategists. We use [novel ways to select vendors](https://18f.gsa.gov/2015/04/23/coming-soon-the-agile-delivery-services-soliciatation/): the most important thing for us is the ability to ship high-quality working software. [More about how we work with vendors.](../vendors/)
-
-Vendors compete among three pools: Pool One is design (small businesses only), Pool Two is development (small businesses only), and Pool Three is full stack (unrestricted). [Vendors have been awarded for Pool Three, and we're working on Pools One and Two.](https://18f.gsa.gov/2015/12/17/the-agile-bpa-is-ready-to-launch/)
 
 ## Learn more
 

@@ -10,9 +10,9 @@ title: Task orders on the BPA
 {% for order in sortedorders %}
 <li>
     {% if order.repository %}
-    <a href="{{order.repository}}">{{ order.title }} solicitation</a> - <a href='#{{ order.title | replace: ' ', '-'}}'>Order details</a><br/>
+    <a href='#{{ order.title | replace: ' ', '-'}}'>{{ order.title }} solicitation</a> - <a href="{{order.repository}}">Solitication Documents</a><br/>
     {% else %}
-    {{ order.title }} - <a href='#{{ order.title | replace: ' ', '-'}}'>Order details</a><br/>
+    <a href='#{{ order.title | replace: ' ', '-'}}'>{{ order.title }}</a><br/>
     {% endif %}
 </li>
 {% endfor %}
