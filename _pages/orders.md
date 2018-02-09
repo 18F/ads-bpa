@@ -12,7 +12,7 @@ title: Task orders on the BPA
     {% if order.repository %}
     <a href='#{{ order.title | replace: ' ', '-'}}'>{{ order.title }} solicitation</a> - <a href="{{order.repository}}">Solitication Documents</a><br/>
     {% else %}
-    <a href='#{{ order.title | replace: ' ', '-'}}'>{{ order.title }}</a><br/>
+    <a href='#{{ order.title | replace: ' ', '-'}}' class="usa-external_link">{{ order.title }}</a><br/>
     {% endif %}
 </li>
 {% endfor %}
