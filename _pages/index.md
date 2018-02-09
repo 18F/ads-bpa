@@ -12,13 +12,13 @@ We're involved through the entire procurement process and our team helps agencie
 ## How it works
 Our team will work with an agency to:
 
-* Determine whether an Agile Acquisition using the Agile BPA is the right fit for an agencies needs
+* Determine whether an Agile Acquisition using the Agile BPA is the right fit for an agency's needs
 
-* Conduct a short investigation and workshop series to better understand the barriers to achieving mission
+* Conduct a short investigation and workshop series to better understand the barriers to achieving its mission
 
 * Draft and manage the procurement, including technical evaluation and selection using our Agile BPA vendor pool
 
-* Create a collaborative agile working environment with the chosen vendors
+* Create a collaborative agile working environment with the agency product owner and chosen vendors
 
 When you, as an agency partner, work with our acquisition team and vendors from the Agile BPA, you put yourself in position to meet the needs of users, deliver functionality quickly, and remain flexible to changing technology and business priorities.
 
