@@ -2,9 +2,9 @@
 permalink: /
 title: Overview
 ---
-We work with federal agencies to reduce the risk of software procurement while ensuring flexibility. Our team of design, technology, and contracting experts can help agencies scope projects, access a qualified vendor on our Agile Blanket Purchase Agreement, and collaboratively manage the development of your product. 
+We work with federal agencies to reduce the risk of software procurement while ensuring flexibility. Our team of design, technology, and contracting experts can help agencies scope projects, access a qualified vendor on our Agile Blanket Purchase Agreement (BPA), and collaboratively manage the development of your product. 
 
-We're involved through the entire procurement process and our team can helps agencies shift from traditional waterfall development to agile methods, reducing risk, production time, and improving the user experience. One of the tools we offer is is the Agile BPA. The Agile BPA is a contracting vehicle that provides TTS with access to a pool of 17 pre-vetted vendors from GSA’s IT Schedule 70.
+We're involved through the entire procurement process and our team helps agencies shift from traditional waterfall development to agile methods, reducing risk, production time, and improving the user experience. One of the tools we offer is the Agile BPA. The Agile BPA is a contracting vehicle that provides TTS with access to a pool of 17 pre-vetted vendors from GSA’s IT Schedule 70.
 
 [See what we're building with the Agile BPA and upcoming orders](/orders)!
 
@@ -20,7 +20,7 @@ Our team will work with an agency to:
 
 * Create a collaborative agile working environment with the chosen vendors
 
-When you, as an agency partner, work with our acquisitions team and vendors from the Agile BPA, you put yourself in position to meet the needs of users, deliver functionality quickly, and remain flexible to changing technology and business priorities.
+When you, as an agency partner, work with our acquisition team and vendors from the Agile BPA, you put yourself in position to meet the needs of users, deliver functionality quickly, and remain flexible to changing technology and business priorities.
 
 # Get updates
 <ul>
