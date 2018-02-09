@@ -3,7 +3,7 @@ layout: default
 title: Information for agency partners
 ---
 
-Any federal agency may only obtain services through an assistend acquisition engagement with 18F.
+Any federal agency may only obtain services through an assisted acquisition engagement with 18F.
 
 The [Agile BPA](../) is 18F's contract vehicle to acquire development, design, and full-stack teams to help work on 18F-managed projects. This is part of 18F's efforts to increase our capacity to help agency partners do great work, through using agile processes to transform the way the federal government buys and builds digital services.
 
