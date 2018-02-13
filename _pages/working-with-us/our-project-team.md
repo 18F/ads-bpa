@@ -12,15 +12,15 @@ The contracting officer’s representative (COR) is designated in writing by the
 
 ## Agency Partner Product Owner
 
-The Product Owner is the project’s key stakeholder and is from the agency partner team. They are responsible for having a vision of what he or she wishes to build, and convey the vision to the 18F Product Lead and the contractor’s scrum or development team. The Product Owner does this in part through the product backlog, which will be a prioritized features list for the product. The Product Owner is responsible for advocating on behalf of the agency’s needs and responsible for decision-making during sprint planning and implementation. The Product Owner will work with the COR/ACOR to inspect vendor work.
+The Product Owner is the project’s key stakeholder and is from the agency partner team. They are responsible for having a vision of what outcomes they wish to achieve, and convey the vision to the 18F Product Manager and the contractor’s scrum or development team. The Product Owner does this in part through the product backlog, which will be a prioritized list of user stories for the product. The Product Owner is responsible for advocating on behalf of the agency’s needs and on behalf of users, and responsible for decision-making during sprint planning and implementation. The Product Owner will work with the COR/ACOR to inspect vendor work.
 
-## 18F Product Lead
-The TTS Product Lead is the interface between the requiring organization (GSA-TTS) and contracting organization (GSA FAS AAS/NCR). The Product Lead coordinates technical aspects of the contract with the COR/ACOR and CO, assists with contract administration, ensures client acceptance of services, and reviews invoices for payment.  The Product Lead is also responsible for coordination between the contractor, the Product Owner, as well as the CO and COR/ACOR.
+## 18F Product Manager
+The TTS Product Manager is the interface between the requiring organization (GSA-TTS) and contracting organization (GSA FAS AAS/NCR). The Product Manager coordinates technical aspects of the contract with the COR/ACOR and CO, assists with contract administration, ensures client acceptance of services, and reviews invoices for payment.  The Product Manager is also responsible for coordination between the contractor, the Product Owner, as well as the CO and COR/ACOR.
 
 ## 18F Technical Lead
 
-The TTS technical lead is responsible for coordination between the contractor’s development team, the Product Owner and the key interagency stakeholders.
+The TTS Technical Lead is responsible for ensuring that the contractor's development work is well-tested, well-documented, and maintainable. This usually includes code review and reviewing and merging pull requests. They also coordinate between the contractor’s development team, the Product Owner and the key interagency stakeholders.
 
 ## 18F Design Lead
 
-The TTS design lead is responsible for ensuring that the contractor's development team meets the design and user research requirements of hte contract.
+The TTS design lead is responsible for ensuring that the contractor's development work is informed by good design practices, and that the team meets the design and user research requirements of the contract.
