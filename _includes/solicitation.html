@@ -1,41 +1,47 @@
-<li>
-  <dl class="solicitation">
-  {{order.Requesting_Agency}}
-    <dt class="solicitation-id">ID</dt>
-    <dd class="solicitation-id">{% if order.rfq_id %}#{{order.rfq_id}}{%else%}TBD{% endif %}</dd>
-    <dt class="solicitation-title">Title</dt>
-    <dd class="solicitation-title"><h1>{{order.title}}</h1></dd>
-    <dt class="solicitation-agency">Agency</dt>
-    <dd class="solicitation-agency">{{order.requesting_agency}}</dd>
-    <dt class="solicitation-office">Office</dt>
-    <dd class="solicitation-office">{{order.office}}</dd>
-    <dt class="solicitation-date">{%if order.state == "planning" %}Anticipated s{% else %}S{% endif %}olicitation date</dt>
-    <dd class="solicitation-date"><time datetime="{{order.solicitation_date}}}">{{order.solicitation_date | date: "%B %d, %Y" }}</time></dd>
-    <dt class="solicitation-period-of-performance">Period of performance</dt>
-    <dd class="solicitation-period-of-performance">{{order.period_of_performance}}</dd>
-    {% if order.description %}
-    <dt class="solicitation-description">Description</dt>
-    <dd class="solicitation-description">
-    <p>{{order.description}}</p>
-    </dd>
-    {% endif %}
-    {% if order.award_data %}
 
-    <dt class="solicitation-description">Award information</dt>
-    <dd class="solicitation-description">
-      <p>Vendor: {{order.award_data.vendor}}</p>
-      <p>Amount: {{order.award_data.amount}}</p>
-      <p>Number of Bidders: {{order.award_data.bidders}}</p>
-      <p>Median: {{order.award_data.median}}</p>
-      <p>Mean: {{order.award_data.mean}}</p>
-      <p>Standard Deviation: {{order.award_data.stdev}}</p>
-      <p>Award Date: <time datetime="{{order.award_data.date}}}">{{order.award_data.date | date: "%B %d, %Y" }}</time></p>
-    </dd>
-    {% endif %}
+<li id="{{ order.title | replace: ' ', '-'}}" class="order">
 
-    {% if order.repository %}
-    <dt class="solicitation-repository">Solicitation Repository</dt>
-    <dd class="solicitation-repository"><a href="{{order.repository}}">GitHub</a></p></dd>
-    {% endif %}
-  </dl>
+  <h3 class='order-title'>{{order.title}}</h3>
+
+  **{{order.requesting_agency}}** **>** **{{order.office}}**
+
+  <h4>Solicitation {% if order.rfq_id %} **#{{order.rfq_id}}**{% endif %}</h4>
+  <ul>
+  <li>{%if order.state == "planning" %}Anticipated r{% else %}R{% endif %}elease date:  <time datetime="{{order.solicitation_date}}}">**{{order.solicitation_date | date: "%B %d, %Y" }}**</time></li>
+
+  {% if order.repository %}
+  <li><a href="{{order.repository}}">RFQ (hosted on Github)</a></li>
+  {% endif %}
+  </ul>
+  {%if order.period_of_performance %}
+  <h4>Period of performance:</h4>
+  <ul>
+  {%if order.period_of_performance.base_period %}
+  <li>Base period: {{ order.period_of_performance.base_period}} months</li>
+
+  {%if order.period_of_performance.option_period %}
+  <li>Option period(s): {{ order.period_of_performance.option_period}}</li>
+  {% endif %}
+  {% endif %}
+  </ul>
+  {% endif %}
+
+  {% if order.description %}
+  <h4>Description</h4>
+  <p>{{order.description}}</p>
+  {% endif %}
+
+  {% if order.award_data %}
+  <h4>Award information</h4>
+  <ul>
+  <li>Vendor: {{order.award_data.vendor}}</li>
+  <li>Amount: {{order.award_data.amount}}</li>
+  <li>Number of Bidders: {{order.award_data.bidders}}</li>
+  <li>Median: {{order.award_data.median}}</li>
+  <li>Mean: {{order.award_data.mean}}</li>
+  <li>Standard Deviation: {{order.award_data.stdev}}</li>
+  <li>Award Date: <time datetime="{{order.award_data.date}}}">{{order.award_data.date | date: "%B %d, %Y" }}</time></li>
+  </ul>
+  {% endif %}
+  <a href="#top-h2">Return to top</a>
 </li>
