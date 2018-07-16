@@ -86,7 +86,7 @@
     median: "$327,481.20"
     stdev: "$73,719.10"
     date: 2016-08-29
-  state: awarded
+  state: delivered
 - requesting_agency: Office of Personnel Management
   office: Federal Investigative Services (FIS)
   rfq_id: 1138886
@@ -100,7 +100,7 @@
     A prototype design and development project to refresh the Electronic Questionnaires for Investigations Processing (e-QIP) system.
   date_posted: 2016-07-10
   date_updated: 2016-11-04
-  state: awarded
+  state: delivered
   award_data:
     vendor: TrueTandem
     amount: "$1,478,179.20"
@@ -142,7 +142,7 @@
     TalentMAP is anticipated to replace the Foreign Service Bidding (FSBid) application and serve as a unified source of information (currently stored outside of FSBID) regarding available Foreign Service positions and post data for Foreign Service employees.
   date_posted: 2017-02-10
   date_updated: 2016-02-11
-  state: awarded
+  state: delivered
   award_data:
     vendor: Booz Allen Hamilton
     amount: "$1,178,104.51"
@@ -204,7 +204,7 @@
   description: The objective of this task order is to develop an online permitting module focused on Christmas tree sales. Every winter, many national forests sell “tags” for Christmas tree cutting (“tag” is the term for a Christmas-tree-specific permit). After purchasing a tag, members of the public can travel to parts of nearby national forests to cut down a tree from a designated area.
   date_posted: 2017-02-15
   date_updated: 2017-09-21
-  state: awarded
+  state: delivered
   award_data:
     vendor: NCI Information Systems
     amount: "$638,266.00"
@@ -213,12 +213,3 @@
     median: "$481,527.12"
     stdev: "$221,662.41"
     date: 2017-09-21
-- requesting_agency: Department of Agriculture
-  office: Forest Service
-  rfq_id: null
-  title: Forest Service e-Permitting
-  solicitation_date: 2018-04-15
-  repository: null
-  date_posted: 2017-09-21
-  date_updated: 2017-09-21
-  state: planning
