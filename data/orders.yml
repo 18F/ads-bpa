@@ -213,12 +213,3 @@
     median: "$481,527.12"
     stdev: "$221,662.41"
     date: 2017-09-21
-- requesting_agency: Department of Agriculture
-  office: Forest Service
-  rfq_id: null
-  title: Forest Service e-Permitting
-  solicitation_date: TBD
-  repository: null
-  date_posted: 2017-09-21
-  date_updated: 2018-07-03
-  state: planning
